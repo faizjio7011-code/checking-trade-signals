@@ -1,0 +1,67 @@
+name: Track Trade Performance
+
+on:
+  schedule:
+    - cron: '30 21 * * 1-5'   # 21:30 UTC Mon-Fri (after US market close)
+  workflow_dispatch:
+  push:
+    paths:
+      - 'orderbook/**'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r trade-analysis/requirements.txt
+
+      - name: Run analysis
+        working-directory: trade-analysis
+        run: python analyze.py
+
+      - name: Commit and push reports
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add report/
+          if git diff --cached --quiet; then
+            echo "No changes to report"
+          else
+            git commit -m "Update trade performance reports $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
+
+  deploy:
+    needs: analyze
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/configure-pages@v4
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Trade Signal Performance Tracker</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+  :root {
+    --bg: #0f1117;
+    --card: #1a1d27;
+    --border: #2a2e3d;
+    --text: #e6e8ef;
+    --muted: #9aa0b0;
+    --green: #22c55e;
+    --red: #ef4444;
+    --amber: #f59e0b;
+    --blue: #3b82f6;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    padding: 24px;
+  }
+  header { max-width: 1200px; margin: 0 auto 20px; }
+  h1 { font-size: 24px; }
+  .sub { color: var(--muted); font-size: 13px; margin-top: 6px; }
+  .stats {
+    max-width: 1200px; margin: 0 auto 24px;
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px;
+  }
+  .stat-card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px;
+  }
+  .stat-card .label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; }
+  .stat-card .value { font-size: 26px; font-weight: 700; margin-top: 6px; }
+  .stat-card .value.green { color: var(--green); }
+  .stat-card .value.red { color: var(--red); }
+  .stat-card .value.amber { color: var(--amber); }
+  .charts { max-width: 1200px; margin: 0 auto 28px; display: grid; grid-template-columns: repeat(auto-fit, minmax(340px,1fr)); gap: 16px; }
+  .chart-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+  .chart-card h3 { font-size: 14px; margin-bottom: 12px; color: var(--muted); }
+  .controls { max-width: 1200px; margin: 0 auto 16px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+  .controls input, .controls select {
+    background: var(--card); border: 1px solid var(--border); color: var(--text);
+    padding: 8px 12px; border-radius: 8px; font-size: 14px;
+  }
+  .table-wrap { max-width: 1200px; margin: 0 auto; overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; background: var(--card); border-radius: 12px; }
+  th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid var(--border); white-space: nowrap; }
+  th { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .5px; position: sticky; top: 0; background: var(--card); }
+  .badge { padding: 3px 8px; border-radius: 20px; font-size: 11px; font-weight: 600; }
+  .b-tp { background: rgba(34,197,94,.15); color: var(--green); }
+  .b-sl { background: rgba(239,68,68,.15); color: var(--red); }
+  .b-open { background: rgba(245,158,11,.15); color: var(--amber); }
+  .b-nodata { background: rgba(154,160,176,.15); color: var(--muted); }
+  .pos { color: var(--green); }
+  .neg { color: var(--red); }
+  .side-buy { color: var(--green); font-weight: 600; }
+  .side-sell { color: var(--red); font-weight: 600; }
+  .footnote { max-width: 1200px; margin: 20px auto 0; color: var(--muted); font-size: 12px; text-align: center; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Trade Signal Performance Tracker</h1>
+  <div class="sub" id="sub">Loading data...</div>
+</header>
+
+<div class="stats" id="stats"></div>
+
+<div class="charts">
+  <div class="chart-card"><h3>Status Breakdown</h3><canvas id="statusChart" height="200"></canvas></div>
+  <div class="chart-card"><h3>Daily P&amp;L % by Signal Date (closed trades)</h3><canvas id="pnlChart" height="200"></canvas></div>
+  <div class="chart-card"><h3>Average Max Profit vs Max Drawdown</h3><canvas id="ddChart" height="200"></canvas></div>
+</div>
+
+<div class="controls">
+  <input type="text" id="search" placeholder="Search symbol..." />
+  <select id="statusFilter">
+    <option value="">All statuses</option>
+    <option value="TP Hit">TP Hit</option>
+    <option value="SL Hit">SL Hit</option>
+    <option value="Open">Open</option>
+    <option value="No Data">No Data</option>
+  </select>
+  <select id="sideFilter">
+    <option value="">All sides</option>
+    <option value="buy">Buy</option>
+    <option value="sell">Sell</option>
+  </select>
+  <label style="color:var(--muted);font-size:13px;"><input type="checkbox" id="onlySL" /> Only SL-hit (reentry)</label>
+</div>
+
+<div class="table-wrap">
+  <table id="table">
+    <thead>
+      <tr>
+        <th>Date</th><th>Symbol</th><th>Side</th><th>Entry</th><th>Stop</th><th>Target</th>
+        <th>Status</th><th>Exit</th><th>P&amp;L %</th><th>Max Profit %</th><th>Max DD %</th><th>Days</th>
+        <th>Reentry</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</div>
+
+<p class="footnote" id="foot"></p>
+
+<script>
+let data = { trades: [] };
+
+const fmt = (v, d=2) => {
+  if (v === "" || v === null || v === undefined) return "—";
+  const n = Number(v);
+  if (isNaN(n)) return v;
+  return n.toFixed(d);
+};
+const pnlClass = v => { const n=Number(v); return isNaN(n)?'':(n>=0?'pos':'neg'); };
+const badgeClass = s => s==='TP Hit'?'b-tp':s==='SL Hit'?'b-sl':s==='Open'?'b-open':'b-nodata';
+
+function renderStats(s) {
+  const cards = [
+    { label:'Total Signals', value:s.total, cls:'' },
+    { label:'TP Hit', value:s.tp_hits, cls:'green' },
+    { label:'SL Hit', value:s.sl_hits, cls:'red' },
+    { label:'Open', value:s.open, cls:'amber' },
+    { label:'Win Rate', value:s.win_rate+'%', cls:'' },
+    { label:'Avg P&L', value:s.avg_pnl+'%', cls: s.avg_pnl>=0?'green':'red' },
+    { label:'Avg Win', value:s.avg_win+'%', cls:'green' },
+    { label:'Avg Loss', value:s.avg_loss+'%', cls:'red' },
+  ];
+  const el = document.getElementById('stats');
+  el.innerHTML = cards.map(c =>
+    `<div class="stat-card"><div class="label">${c.label}</div><div class="value ${c.cls}">${c.value}</div></div>`
+  ).join('');
+}
+
+function renderCharts(s) {
+  new Chart(document.getElementById('statusChart'), {
+    type:'doughnut',
+    data:{ labels:['TP Hit','SL Hit','Open'],
+      datasets:[{ data:[s.tp_hits,s.sl_hits,s.open],
+        backgroundColor:['#22c55e','#ef4444','#f59e0b'] }]},
+    options:{ plugins:{ legend:{ labels:{ color:'#9aa0b0'} } }, maintainAspectRatio:false }
+  });
+
+  const closed = data.trades.filter(t=>t.pnl!==''&&!isNaN(Number(t.pnl)));
+  const byDate = {};
+  closed.forEach(t=>{ byDate[t.date]=(byDate[t.date]||[]).concat(Number(t.pnl)); });
+  const dates=Object.keys(byDate).sort();
+  const avgs=dates.map(d=>byDate[d].reduce((a,b)=>a+b,0)/byDate[d].length);
+  new Chart(document.getElementById('pnlChart'), {
+    type:'bar',
+    data:{ labels:dates, datasets:[{ label:'Avg P&L %', data:avgs, backgroundColor:avgs.map(v=>v>=0?'#22c55e':'#ef4444') }]},
+    options:{ plugins:{ legend:{display:false} }, scales:{ x:{ ticks:{color:'#9aa0b0'}}, y:{ticks:{color:'#9aa0b0'}} }, maintainAspectRatio:false }
+  });
+
+  new Chart(document.getElementById('ddChart'), {
+    type:'bar',
+    data:{ labels:['Max Profit','Max Drawdown'],
+      datasets:[{ data:[s.avg_max_profit, s.avg_max_drawdown], backgroundColor:['#22c55e','#ef4444'] }]},
+    options:{ plugins:{ legend:{display:false} }, scales:{ y:{ticks:{color:'#9aa0b0'}} }, maintainAspectRatio:false }
+  });
+}
+
+function renderTable() {
+  const q = document.getElementById('search').value.trim().toLowerCase();
+  const sf = document.getElementById('statusFilter').value;
+  const side = document.getElementById('sideFilter').value;
+  const onlySL = document.getElementById('onlySL').checked;
+  const rows = data.trades.filter(t=>{
+    if (q && !t.symbol.toLowerCase().includes(q)) return false;
+    if (sf && t.status!==sf) return false;
+    if (side && t.side!==side) return false;
+    if (onlySL && t.status!=='SL Hit') return false;
+    return true;
+  });
+  const tbody = document.querySelector('#table tbody');
+  tbody.innerHTML = rows.map(t=>{
+    const re = t.reentryDate ? `${t.reentryDate}<br><span style="color:var(--muted)">${t.reentrySide} @ ${fmt(t.reentryPrice)}</span>` : '—';
+    return `<tr>
+      <td>${t.date}</td><td><b>${t.symbol}</b></td>
+      <td class="side-${t.side}">${t.side.toUpperCase()}</td>
+      <td>${fmt(t.entry)}</td><td>${fmt(t.stoploss)}</td><td>${fmt(t.target)}</td>
+      <td><span class="badge ${badgeClass(t.status)}">${t.status}</span></td>
+      <td>${t.exitDate?t.exitDate+'<br><span style="color:var(--muted)">'+fmt(t.exitPrice)+'</span>':'—'}</td>
+      <td class="${pnlClass(t.pnl)}">${fmt(t.pnl)}%</td>
+      <td>${fmt(t.maxProfit)}%</td><td class="neg">${fmt(t.maxDrawdown)}%</td>
+      <td>${fmt(t.daysHeld,0)}</td><td>${re}</td>
+    </tr>`;
+  }).join('');
+  document.getElementById('foot').textContent = `Showing ${rows.length} of ${data.trades.length} trades. Data refreshed daily via GitHub Actions (yfinance, Mon-Fri).`;
+}
+
+['search','statusFilter','sideFilter','onlySL'].forEach(id=>{
+  document.getElementById(id).addEventListener('input', renderTable);
+});
+
+async function loadSummary() {
+  try {
+    const r = await fetch('report/summary.json', {cache:'no-store'});
+    if (r.ok) {
+      const s = await r.json();
+      renderStats(s);
+      renderCharts(s);
+    }
+  } catch(e){ console.log('summary unavailable', e); }
+}
+
+async function init() {
+  try {
+    const r = await fetch('report/data.json', {cache:'no-store'});
+    data = await r.json();
+    document.getElementById('sub').textContent = `Generated: ${new Date(data.generatedAt).toLocaleString()}`;
+  } catch(e){
+    document.getElementById('sub').textContent = 'Could not load report/data.json. Run the analysis workflow first.';
+    return;
+  }
+  loadSummary();
+  renderTable();
+}
+init();
+</script>
+</body>
+</html>
