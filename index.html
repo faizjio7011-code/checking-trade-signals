@@ -42,6 +42,7 @@
   .charts { max-width: 1200px; margin: 0 auto 28px; display: grid; grid-template-columns: repeat(auto-fit, minmax(340px,1fr)); gap: 16px; }
   .chart-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
   .chart-card h3 { font-size: 14px; margin-bottom: 12px; color: var(--muted); }
+  .chart-wrap { position: relative; height: 300px; width: 100%; overflow: hidden; }
   .controls { max-width: 1200px; margin: 0 auto 16px; display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
   .controls input, .controls select {
     background: var(--card); border: 1px solid var(--border); color: var(--text);
@@ -72,9 +73,9 @@
 <div class="stats" id="stats"></div>
 
 <div class="charts">
-  <div class="chart-card"><h3>Status Breakdown</h3><canvas id="statusChart" height="200"></canvas></div>
-  <div class="chart-card"><h3>Daily P&amp;L % by Signal Date (closed trades)</h3><canvas id="pnlChart" height="200"></canvas></div>
-  <div class="chart-card"><h3>Average Max Profit vs Max Drawdown</h3><canvas id="ddChart" height="200"></canvas></div>
+  <div class="chart-card"><h3>Status Breakdown</h3><div class="chart-wrap"><canvas id="statusChart"></canvas></div></div>
+  <div class="chart-card"><h3>Daily P&amp;L % by Signal Date (closed trades)</h3><div class="chart-wrap"><canvas id="pnlChart"></canvas></div></div>
+  <div class="chart-card"><h3>Average Max Profit vs Max Drawdown</h3><div class="chart-wrap"><canvas id="ddChart"></canvas></div></div>
 </div>
 
 <div class="controls">
