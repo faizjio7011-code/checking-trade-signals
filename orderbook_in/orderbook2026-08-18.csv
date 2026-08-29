@@ -1,5 +1,5 @@
-Symbol,Buy/Sell,CBT,Entry,Stoploss,TargetPrice,Status,ExitPrice,ExitDate,2026-08-19_DayMaxProfit,2026-08-19_DayMaxLoss,2026-08-19_MaxProfit,2026-08-19_MaxLoss,2026-08-19_MaxDrawdown,2026-08-19_CurrentPnL,2026-08-20_DayMaxProfit,2026-08-20_DayMaxLoss,2026-08-20_MaxProfit,2026-08-20_MaxLoss,2026-08-20_MaxDrawdown,2026-08-20_CurrentPnL,2026-08-21_DayMaxProfit,2026-08-21_DayMaxLoss,2026-08-21_MaxProfit,2026-08-21_MaxLoss,2026-08-21_MaxDrawdown,2026-08-21_CurrentPnL,2026-08-24_DayMaxProfit,2026-08-24_DayMaxLoss,2026-08-24_MaxProfit,2026-08-24_MaxLoss,2026-08-24_MaxDrawdown,2026-08-24_CurrentPnL,2026-08-25_DayMaxProfit,2026-08-25_DayMaxLoss,2026-08-25_MaxProfit,2026-08-25_MaxLoss,2026-08-25_MaxDrawdown,2026-08-25_CurrentPnL,2026-08-26_DayMaxProfit,2026-08-26_DayMaxLoss,2026-08-26_MaxProfit,2026-08-26_MaxLoss,2026-08-26_MaxDrawdown,2026-08-26_CurrentPnL,2026-08-27_DayMaxProfit,2026-08-27_DayMaxLoss,2026-08-27_MaxProfit,2026-08-27_MaxLoss,2026-08-27_MaxDrawdown,2026-08-27_CurrentPnL
-ACSTECH,Sell,49.92,52.0,55.13,49.41,TP Hit,49.41,2026-08-19,1.02,-2.16,1.02,-2.16,-3.19,1.02,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ATLANTAELE,Sell,1774.4,1828.9000244140625,1934.62,1596.32,Open,,,,,,,,,5.21,0.53,5.21,0.53,-4.68,4.84,4.19,-4.68,5.21,-4.68,-9.89,-4.09,-2.04,-6.26,5.21,-6.26,-11.47,-2.54,3.48,-2.12,5.21,-6.26,-11.47,3.09,4.93,1.09,5.21,-6.26,-11.47,2.78,6.00,2.73,6.00,-6.26,-11.47,5.61
-MOTILALOFS,Sell,938.0,951.0,991.27,869.4,SL Hit,991.27,2026-08-21,,,,,,,-0.44,-5.50,-0.44,-5.50,-5.50,-3.77,-3.26,-5.68,-0.44,-5.68,-5.68,-5.68,,,,,,,,,,,,,,,,,,,,,,,,
-RSWM,Buy,200.25,196.0,183.03,211.74,Open,,,,,,,,,0.17,-3.07,0.17,-3.07,-3.25,-1.39,3.32,-4.62,3.32,-4.62,-7.94,2.29,4.37,-2.83,4.37,-4.62,-7.94,-2.28,1.10,-2.43,4.37,-4.62,-7.94,-0.45,-0.10,-2.90,4.37,-4.62,-7.94,-1.14,-0.12,-2.12,4.37,-4.62,-7.94,-1.28
+Symbol,Buy/Sell,CBT,Entry,Stoploss,TargetPrice
+ACSTECH,Sell,49.92,52.0,55.13,49.41
+ATLANTAELE,Sell,1774.4,1828.9000244140625,1934.62,1596.32
+MOTILALOFS,Sell,938.0,951.0,991.27,869.4
+RSWM,Buy,200.25,196.0,183.03,211.74
