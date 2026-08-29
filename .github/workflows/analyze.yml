@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - 'orderbook/**'
+      - 'orderbook_in/**'
 
 permissions:
   contents: write
@@ -32,13 +33,15 @@ jobs:
 
       - name: Run analysis
         working-directory: trade-analysis
-        run: python analyze.py
+        run: |
+          python analyze.py us
+          python analyze.py in
 
       - name: Commit and push reports
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add report/
+          git add report/ report_in/
           if git diff --cached --quiet; then
             echo "No changes to report"
           else

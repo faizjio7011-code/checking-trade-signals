@@ -9,22 +9,25 @@ Buy, red for Sell) as a reentry point.
 
 import csv
 import glob
-import io
 import json
 import os
 import re
 import sys
 from datetime import datetime, timedelta
-from statistics import mean
 
 import yfinance as yf
 import pandas as pd
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ORDERBOOK_DIR = os.path.join(BASE_DIR, "orderbook")
-REPORT_DIR = os.path.join(BASE_DIR, "report")
 
 FILENAME_RE = re.compile(r"orderbook(\d{4}-\d{2}-\d{2})\.csv")
+
+# Market configurations. "suffix" is appended to symbols passed to yfinance.
+MARKETS = {
+    "us": {"orderbook_dir": "orderbook", "report_dir": "report", "suffix": ""},
+    "in": {"orderbook_dir": "orderbook_in", "report_dir": "report_in", "suffix": ".NS"},
+}
+DEFAULT_MARKET = "us"
 
 # Number of extra calendar days to request beyond the signal to cover future days.
 LOOKAHEAD_DAYS = 400
@@ -223,9 +226,18 @@ def collect(orderbook_dir):
 
 
 def main():
-    os.makedirs(REPORT_DIR, exist_ok=True)
-    trades = collect(ORDERBOOK_DIR)
-    print(f"Found {len(trades)} signals.")
+    market = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_MARKET
+    if market not in MARKETS:
+        print(f"Unknown market '{market}'. Valid: {list(MARKETS)}", file=sys.stderr)
+        sys.exit(1)
+    cfg = MARKETS[market]
+    orderbook_dir = os.path.join(BASE_DIR, cfg["orderbook_dir"])
+    report_dir = os.path.join(BASE_DIR, cfg["report_dir"])
+    suffix = cfg["suffix"]
+
+    os.makedirs(report_dir, exist_ok=True)
+    trades = collect(orderbook_dir)
+    print(f"[{market}] Found {len(trades)} signals.", flush=True)
 
     # Group by symbol so we only download once per symbol.
     symbol_start = {}
@@ -236,12 +248,13 @@ def main():
 
     ohlc_cache = {}
     for symbol, start in symbol_start.items():
+        yf_symbol = symbol + suffix
         try:
-            print(f"Fetching {symbol} ...", flush=True)
-            df = fetch_ohlc(symbol, start)
+            print(f"[{market}] Fetching {yf_symbol} ...", flush=True)
+            df = fetch_ohlc(yf_symbol, start)
             ohlc_cache[symbol] = df
         except Exception as e:  # noqa: BLE001
-            print(f"Failed to fetch {symbol}: {e}", flush=True)
+            print(f"Failed to fetch {yf_symbol}: {e}", flush=True)
             ohlc_cache[symbol] = None
 
     results = []
@@ -254,10 +267,10 @@ def main():
     # Sort by signal date then symbol.
     results.sort(key=lambda r: (r["signal_date"], r["symbol"]))
 
-    write_report(results)
+    write_report(results, report_dir)
 
 
-def write_report(results):
+def write_report(results, report_dir):
     columns = [
         "signal_date", "symbol", "side", "cbt", "entry", "stoploss", "target",
         "status", "exit_date", "exit_price", "max_profit_pct", "max_drawdown_pct",
@@ -265,7 +278,7 @@ def write_report(results):
     ]
 
     # --- daily performance CSV (all trades) ---
-    perf_path = os.path.join(REPORT_DIR, "trade_performance.csv")
+    perf_path = os.path.join(report_dir, "trade_performance.csv")
     with open(perf_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=columns)
         writer.writeheader()
@@ -275,7 +288,7 @@ def write_report(results):
     # --- sl_hit CSV (only SL-hit trades with reentry info) ---
     sl_cols = columns + ["reentry_date", "reentry_side", "reentry_price"]
     sl_hits = [r for r in results if r["status"] == "SL Hit"]
-    sl_path = os.path.join(REPORT_DIR, "sl_hit.csv")
+    sl_path = os.path.join(report_dir, "sl_hit.csv")
     with open(sl_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=sl_cols)
         writer.writeheader()
@@ -284,12 +297,12 @@ def write_report(results):
 
     # --- JSON for webpage ---
     data = build_json(results)
-    json_path = os.path.join(REPORT_DIR, "data.json")
+    json_path = os.path.join(report_dir, "data.json")
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
 
     summary = summarize(results)
-    with open(os.path.join(REPORT_DIR, "summary.json"), "w", encoding="utf-8") as f:
+    with open(os.path.join(report_dir, "summary.json"), "w", encoding="utf-8") as f:
         json.dump(summary, f, indent=2)
 
     print("\n==== SUMMARY ====")

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Trade Signal Performance Tracker</title>
+<title>India Trade Signal Performance Tracker</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
 <style>
   :root {
@@ -73,11 +73,11 @@
 </head>
 <body>
 <div class="nav">
-  <a href="index.html" class="active">US Markets</a>
-  <a href="india.html">India Markets</a>
+  <a href="index.html">US Markets</a>
+  <a href="india.html" class="active">India Markets</a>
 </div>
 <header>
-  <h1>US Trade Signal Performance Tracker</h1>
+  <h1>India Trade Signal Performance Tracker</h1>
   <div class="sub" id="sub">Loading data...</div>
 </header>
 
@@ -213,7 +213,7 @@ function renderTable() {
 
 async function loadSummary() {
   try {
-    const r = await fetch('report/summary.json', {cache:'no-store'});
+    const r = await fetch('report_in/summary.json', {cache:'no-store'});
     if (r.ok) {
       const s = await r.json();
       renderStats(s);
@@ -224,11 +224,11 @@ async function loadSummary() {
 
 async function init() {
   try {
-    const r = await fetch('report/data.json', {cache:'no-store'});
+    const r = await fetch('report_in/data.json', {cache:'no-store'});
     data = await r.json();
     document.getElementById('sub').textContent = `Generated: ${new Date(data.generatedAt).toLocaleString()}`;
   } catch(e){
-    document.getElementById('sub').textContent = 'Could not load report/data.json. Run the analysis workflow first.';
+    document.getElementById('sub').textContent = 'Could not load report_in/data.json. Run the analysis workflow first.';
     return;
   }
   loadSummary();
