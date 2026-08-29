@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T03:13:55.837931Z",
+  "generatedAt": "2026-08-29T19:34:49.448903Z",
   "trades": [
     {
       "date": "2026-05-14",
@@ -4423,7 +4423,7 @@
       "exitDate": "",
       "exitPrice": "",
       "maxProfit": 2.67,
-      "maxDrawdown": 4.61,
+      "maxDrawdown": 4.65,
       "daysHeld": 9,
       "pnl": "",
       "lastPrice": 86.01,
