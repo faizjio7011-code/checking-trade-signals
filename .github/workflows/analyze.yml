@@ -19,8 +19,11 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  analyze:
+  analyze-and-deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
 
@@ -31,7 +34,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r trade-analysis/requirements.txt
 
-      - name: Run analysis
+      - name: Run analysis (US and India)
         working-directory: trade-analysis
         run: |
           python analyze.py us
@@ -48,15 +51,6 @@ jobs:
             git commit -m "Update trade performance reports $(date -u +'%Y-%m-%d %H:%M UTC')"
             git push
           fi
-
-  deploy:
-    needs: analyze
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - uses: actions/checkout@v4
 
       - uses: actions/configure-pages@v4
         with:
