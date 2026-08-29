@@ -192,7 +192,7 @@ function renderTable() {
   });
   const tbody = document.querySelector('#table tbody');
   tbody.innerHTML = rows.map(t=>{
-    const re = t.reentryDate ? `${t.reentryDate}<br><span style="color:var(--muted)">${t.reentrySide} @ ${fmt(t.reentryPrice)}</span>` : '—';
+    const re = t.reentryDate ? `${t.reentryDate}<br><span style="color:var(--muted)">${t.reentrySide} @ ${fmt(t.reentryPrice)}</span>` : (t.status==='SL Hit' ? '<span style="color:var(--amber)">Pending</span>' : '—');
     return `<tr>
       <td>${t.date}</td><td><b>${t.symbol}</b></td>
       <td class="side-${t.side}">${t.side.toUpperCase()}</td>

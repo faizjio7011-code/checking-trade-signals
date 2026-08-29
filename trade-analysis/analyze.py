@@ -61,6 +61,8 @@ def fetch_ohlc(symbol, start_date):
     date_col = "Date" if "Date" in df.columns else "Datetime"
     df.rename(columns={date_col: "Date"}, inplace=True)
     df["Date"] = pd.to_datetime(df["Date"]).dt.date
+    # Drop rows with missing OHLC (yfinance sometimes appends a NaN placeholder).
+    df = df.dropna(subset=["Open", "High", "Low", "Close"])
     return df
 
 
