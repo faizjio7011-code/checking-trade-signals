@@ -1,4 +1,6 @@
 signal_date,symbol,side,cbt,entry,stoploss,target,status,exit_date,exit_price,max_profit_pct,max_drawdown_pct,days_held,pnl_pct,last_price,last_date
+2026-08-27,MSTR,sell,127.31,134.0,147.76,93.58,Open,,,7.77,4.31,5,,124.88,2026-09-01
+2026-08-27,XPRO,buy,18.07,17.44,16.38,18.6,TP Hit,2026-08-31,18.6,7.97,1.09,4,6.65,18.6,2026-08-31
 2026-08-31,HQY,buy,96.54,95.55,85.06,102.8,Open,,,3.24,2.61,1,,97.0,2026-09-01
 2026-08-31,LEGN,buy,20.78,19.8,18.56,22.2,Open,,,8.81,0.47,1,,21.13,2026-09-01
 2026-09-01,CYTK,buy,71.4,70.14,66.43,76.5,Open,,,3.28,0.41,0,,71.4,2026-09-01
