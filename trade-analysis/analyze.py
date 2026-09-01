@@ -3,8 +3,16 @@
 
 For each signal, pulls daily OHLC via yfinance and determines whether the
 Stop Loss or Target Price was hit, computes max profit / max drawdown, and for
-SL-hit trades finds the next closed candle in the same direction (green for
-Buy, red for Sell) as a reentry point.
+SL-hit trades finds the reentry candle (same direction as the trade, starting
+from the SL candle inclusive) and models a secondary reentry trade:
+
+  - Reentry entry  = close of the reentry candle
+  - Reentry SL     = reentry candle Low  - ATR(14)   (for Buy)
+                   = reentry candle High + ATR(14)   (for Sell)
+  - Reentry TP     = entry x (1 + |original loss %| / 100)
+
+The reentry trade's own outcome (TP / SL / Open) is then evaluated on the
+following closed candles.
 """
 
 import csv
@@ -29,8 +37,7 @@ MARKETS = {
 }
 DEFAULT_MARKET = "us"
 
-# Number of extra calendar days to request beyond the signal to cover future days.
-LOOKAHEAD_DAYS = 400
+ATR_PERIOD = 14
 
 
 def parse_signal_date(filename):
@@ -63,7 +70,55 @@ def fetch_ohlc(symbol, start_date):
     df["Date"] = pd.to_datetime(df["Date"]).dt.date
     # Drop rows with missing OHLC (yfinance sometimes appends a NaN placeholder).
     df = df.dropna(subset=["Open", "High", "Low", "Close"])
+    df = add_atr(df, ATR_PERIOD)
     return df
+
+
+def add_atr(df, period=14):
+    """Add an 'ATR' column using Wilder smoothing."""
+    df = df.copy()
+    high = df["High"].astype(float)
+    low = df["Low"].astype(float)
+    close = df["Close"].astype(float)
+    prev_close = close.shift(1)
+    tr = pd.concat([(high - low), (high - prev_close).abs(),
+                    (low - prev_close).abs()], axis=1).max(axis=1)
+    atr = tr.ewm(alpha=1.0 / period, adjust=False).mean()
+    atr.iloc[:period] = tr.iloc[:period].rolling(period, min_periods=1).mean().iloc[:period]
+    df["ATR"] = atr
+    return df
+
+
+def empty_result(signal_date, symbol, side, cbt, entry, sl, tp, status):
+    return {
+        "signal_date": str(signal_date),
+        "symbol": symbol,
+        "side": side,
+        "cbt": cbt,
+        "entry": entry,
+        "stoploss": sl,
+        "target": tp,
+        "status": status,
+        "exit_date": "",
+        "exit_price": "",
+        "max_profit_pct": "",
+        "max_drawdown_pct": "",
+        "days_held": "",
+        "pnl_pct": "",
+        "last_price": "",
+        "last_date": "",
+        "reentry_date": "",
+        "reentry_side": "",
+        "reentry_entry": "",
+        "reentry_sl": "",
+        "reentry_tp": "",
+        "reentry_status": "",
+        "reentry_exit_date": "",
+        "reentry_exit_price": "",
+        "reentry_pnl_pct": "",
+        "reentry_last_price": "",
+        "reentry_last_date": "",
+    }
 
 
 def analyze_trade(row, signal_date, ohlc):
@@ -79,26 +134,7 @@ def analyze_trade(row, signal_date, ohlc):
         return None
 
     if ohlc is None or ohlc.empty:
-        status = "No Data"
-        result = {
-            "signal_date": str(signal_date),
-            "symbol": symbol,
-            "side": side,
-            "cbt": cbt,
-            "entry": entry,
-            "stoploss": sl,
-            "target": tp,
-            "status": status,
-            "exit_date": "",
-            "exit_price": "",
-            "max_profit_pct": "",
-            "max_drawdown_pct": "",
-            "days_held": "",
-            "pnl_pct": "",
-            "last_price": "",
-            "last_date": "",
-        }
-        return result
+        return empty_result(signal_date, symbol, side, cbt, entry, sl, tp, "No Data")
 
     # Consider days from the signal date onward (entry likely on/after signal day)
     ohlc = ohlc[ohlc["Date"] >= signal_date].copy()
@@ -132,7 +168,6 @@ def analyze_trade(row, signal_date, ohlc):
         hit_sl = low <= sl if side == "buy" else high >= sl
 
         if hit_tp and hit_sl:
-            # ambiguous same-day: choose by which threshold is further from open
             open_px = float(day["Open"])
             if side == "buy":
                 hit_tp = (tp - open_px) <= (open_px - sl)
@@ -166,15 +201,8 @@ def analyze_trade(row, signal_date, ohlc):
         days_held = (exit_date - signal_date).days
         pnl = (exit_price - entry) / entry * 100 if side == "buy" else (entry - exit_price) / entry * 100
 
-    result = {
-        "signal_date": str(signal_date),
-        "symbol": symbol,
-        "side": side,
-        "cbt": cbt,
-        "entry": entry,
-        "stoploss": sl,
-        "target": tp,
-        "status": status,
+    result = empty_result(signal_date, symbol, side, cbt, entry, sl, tp, status)
+    result.update({
         "exit_date": str(exit_date) if exit_date else "",
         "exit_price": round(exit_price, 4) if exit_price else "",
         "max_profit_pct": round(max_profit_pct, 2) if max_profit_pct is not None else "",
@@ -183,32 +211,103 @@ def analyze_trade(row, signal_date, ohlc):
         "pnl_pct": round(pnl, 2) if pnl != "" else "",
         "last_price": round(last_price, 4),
         "last_date": last_date,
-        "reentry_date": "",
-        "reentry_side": "",
-        "reentry_price": "",
-    }
+    })
     if status == "SL Hit":
-        add_reentry(result, ohlc, exit_date, side, entry)
+        add_reentry(result, ohlc, exit_date, side, entry, pnl)
     return result
 
 
-def add_reentry(result, ohlc, sl_hit_date, side, entry):
-    """Find the next closed candle after the SL hit in the same direction."""
-    after = ohlc[ohlc["Date"] > sl_hit_date].copy().reset_index(drop=True)
-    for _, day in after.iterrows():
+def add_reentry(result, ohlc, sl_hit_date, side, entry, loss_pct):
+    """Find the reentry candle (SL candle inclusive) and model the reentry trade.
+
+    Reentry = first candle from the SL candle onward whose color matches the
+    trade direction (Green for Buy, Red for Sell). Trades are taken at the
+    close of that candle.
+    """
+    window = ohlc[ohlc["Date"] >= sl_hit_date].copy().reset_index(drop=True)
+
+    found_idx = None
+    direction = None
+    for i, day in window.iterrows():
         open_px = float(day["Open"])
         close_px = float(day["Close"])
-        if close_px > open_px:  # green candle
+        if close_px > open_px:
             direction = "Green"
-        elif close_px < open_px:  # red candle
+        elif close_px < open_px:
             direction = "Red"
         else:
             continue  # doji, skip
         if (side == "buy" and direction == "Green") or (side == "sell" and direction == "Red"):
-            result["reentry_date"] = str(day["Date"])
-            result["reentry_side"] = direction
-            result["reentry_price"] = round(close_px, 4)
-            return
+            found_idx = i
+            break
+
+    if found_idx is None:
+        return
+
+    day = window.iloc[found_idx]
+    re_entry = float(day["Close"])
+    atr = float(day["ATR"]) if not pd.isna(day["ATR"]) else 0.0
+    if side == "buy":
+        re_sl = float(day["Low"]) - atr
+    else:
+        re_sl = float(day["High"]) + atr
+    loss_pct_abs = abs(float(loss_pct)) if loss_pct and loss_pct != "" else 0.0
+    re_tp = re_entry * (1 + loss_pct_abs / 100.0)
+
+    result["reentry_date"] = str(day["Date"])
+    result["reentry_side"] = direction
+    result["reentry_entry"] = round(re_entry, 4)
+    result["reentry_sl"] = round(re_sl, 4)
+    result["reentry_tp"] = round(re_tp, 4)
+
+    # Evaluate reentry outcome on the candles AFTER the reentry candle.
+    post = window[window["Date"] > day["Date"]].copy().reset_index(drop=True)
+    r_status = "Open"
+    r_exit_date = ""
+    r_exit_price = ""
+    r_pnl = ""
+    r_last_price = re_entry
+    r_last_date = str(day["Date"])
+
+    for _, d in post.iterrows():
+        d_high = float(d["High"])
+        d_low = float(d["Low"])
+        r_last_price = float(d["Close"])
+        r_last_date = str(d["Date"])
+
+        hit_tp = d_high >= re_tp if side == "buy" else d_low <= re_tp
+        hit_sl = d_low <= re_sl if side == "buy" else d_high >= re_sl
+
+        if hit_tp and hit_sl:
+            d_open = float(d["Open"])
+            if side == "buy":
+                hit_tp = (re_tp - d_open) <= (d_open - re_sl)
+            else:
+                hit_tp = (d_open - re_tp) <= (re_sl - d_open)
+            if hit_tp:
+                hit_sl = False
+            else:
+                hit_sl = True
+
+        if hit_tp:
+            r_status = "TP Hit"
+            r_exit_date = str(d["Date"])
+            r_exit_price = re_tp
+            r_pnl = (re_tp - re_entry) / re_entry * 100 if side == "buy" else (re_entry - re_tp) / re_entry * 100
+            break
+        if hit_sl:
+            r_status = "SL Hit"
+            r_exit_date = str(d["Date"])
+            r_exit_price = re_sl
+            r_pnl = (re_sl - re_entry) / re_entry * 100 if side == "buy" else (re_entry - re_sl) / re_entry * 100
+            break
+
+    result["reentry_status"] = r_status
+    result["reentry_exit_date"] = r_exit_date
+    result["reentry_exit_price"] = round(r_exit_price, 4) if r_exit_price != "" else ""
+    result["reentry_pnl_pct"] = round(r_pnl, 2) if r_pnl != "" else ""
+    result["reentry_last_price"] = round(r_last_price, 4)
+    result["reentry_last_date"] = r_last_date
 
 
 def collect(orderbook_dir):
@@ -244,7 +343,7 @@ def main():
     # Group by symbol so we only download once per symbol.
     symbol_start = {}
     for t in trades:
-        start = t["signal_date"] - timedelta(days=10)
+        start = t["signal_date"] - timedelta(days=20)
         if t["symbol"] not in symbol_start or start < symbol_start[t["symbol"]]:
             symbol_start[t["symbol"]] = start
 
@@ -272,6 +371,13 @@ def main():
     write_report(results, report_dir)
 
 
+REENTRY_COLS = [
+    "reentry_side", "reentry_entry", "reentry_sl", "reentry_tp",
+    "reentry_status", "reentry_exit_date", "reentry_exit_price",
+    "reentry_pnl_pct",
+]
+
+
 def write_report(results, report_dir):
     columns = [
         "signal_date", "symbol", "side", "cbt", "entry", "stoploss", "target",
@@ -287,8 +393,9 @@ def write_report(results, report_dir):
         for r in results:
             writer.writerow({k: r.get(k, "") for k in columns})
 
-    # --- sl_hit CSV (only SL-hit trades with reentry info) ---
-    sl_cols = columns + ["reentry_date", "reentry_side", "reentry_price"]
+    # --- sl_hit CSV (only SL-hit trades with reentry tips) ---
+    sl_cols = columns + ["reentry_date", "reentry_side", "reentry_entry",
+                         "reentry_sl", "reentry_tp"]
     sl_hits = [r for r in results if r["status"] == "SL Hit"]
     sl_path = os.path.join(report_dir, "sl_hit.csv")
     with open(sl_path, "w", newline="", encoding="utf-8") as f:
@@ -296,6 +403,22 @@ def write_report(results, report_dir):
         writer.writeheader()
         for r in sl_hits:
             writer.writerow({k: r.get(k, "") for k in sl_cols})
+
+    # --- reentry CSV (SL-hit trades that produced a reentry signal), sorted by
+    #     reentry date. The secondary trade is tracked by its own levels/outcome.
+    re_cols = ["signal_date", "symbol", "side", "entry", "stoploss", "target",
+               "pnl_pct", "reentry_date", "reentry_side", "reentry_entry",
+               "reentry_sl", "reentry_tp", "reentry_status", "reentry_exit_date",
+               "reentry_exit_price", "reentry_pnl_pct"]
+    reentries = [r for r in results
+                 if r["status"] == "SL Hit" and r.get("reentry_date")]
+    reentries.sort(key=lambda r: (r["reentry_date"], r["symbol"]))
+    re_path = os.path.join(report_dir, "reentry.csv")
+    with open(re_path, "w", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=re_cols)
+        writer.writeheader()
+        for r in reentries:
+            writer.writerow({k: r.get(k, "") for k in re_cols})
 
     # --- JSON for webpage ---
     data = build_json(results)
@@ -310,8 +433,10 @@ def write_report(results, report_dir):
     print("\n==== SUMMARY ====")
     print(json.dumps(summary, indent=2))
     print(f"\nTotal trades: {len(results)}")
+    print(f"Total reentries: {len(reentries)}")
     print(f"Written: {perf_path}")
     print(f"Written: {sl_path}")
+    print(f"Written: {re_path}")
     print(f"Written: {json_path}")
 
 
@@ -336,7 +461,13 @@ def build_json(results):
             "lastDate": r["last_date"],
             "reentryDate": r["reentry_date"],
             "reentrySide": r["reentry_side"],
-            "reentryPrice": r["reentry_price"],
+            "reentryEntry": r["reentry_entry"],
+            "reentrySL": r["reentry_sl"],
+            "reentryTP": r["reentry_tp"],
+            "reentryStatus": r["reentry_status"],
+            "reentryExitDate": r["reentry_exit_date"],
+            "reentryExitPrice": r["reentry_exit_price"],
+            "reentryPnl": r["reentry_pnl_pct"],
         }
     return {"generatedAt": datetime.utcnow().isoformat() + "Z", "trades": [clean(r) for r in results]}
 
@@ -346,6 +477,10 @@ def summarize(results):
     tp_hits = [r for r in done if r["status"] == "TP Hit"]
     sl_hits = [r for r in done if r["status"] == "SL Hit"]
     open_trades = [r for r in results if r["status"] == "Open"]
+
+    reentries = [r for r in results if r.get("reentry_date")]
+    re_done = [r for r in reentries if r.get("reentry_status") in ("TP Hit", "SL Hit")]
+    re_tp = [r for r in re_done if r.get("reentry_status") == "TP Hit"]
 
     def pct(x):
         s = 0.0
@@ -369,6 +504,12 @@ def summarize(results):
         "avg_loss": pct([r["pnl_pct"] for r in sl_hits]),
         "avg_max_profit": pct([r["max_profit_pct"] for r in done]),
         "avg_max_drawdown": pct([r["max_drawdown_pct"] for r in done]),
+        "reentry_total": len(reentries),
+        "reentry_closed": len(re_done),
+        "reentry_wins": len(re_tp),
+        "reentry_win_rate": round(len(re_tp) / len(re_done) * 100, 1) if re_done else 0,
+        "reentry_avg_pnl": pct([r["reentry_pnl_pct"] for r in re_done]),
+        "reentry_pending": len(reentries) - len(re_done),
         "generated_at": datetime.utcnow().isoformat() + "Z",
     }
 
