@@ -1,2 +1,3 @@
 signal_date,symbol,side,entry,stoploss,target,pnl_pct,reentry_date,reentry_side,reentry_entry,reentry_sl,reentry_tp,reentry_status,reentry_exit_date,reentry_exit_price,reentry_pnl_pct
 2026-08-25,VOGL,sell,39.54999923706055,42.86,37.96,-8.37,2026-08-28,Red,40.32,44.6938,36.9456,Open,,,
+2026-08-24,IOLCP,sell,170.69000244140625,184.46,160.61,-8.07,2026-08-31,Red,193.69,206.2737,178.0645,Open,,,

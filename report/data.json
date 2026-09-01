@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T22:57:38.694218Z",
+  "generatedAt": "2026-09-01T23:12:33.042684Z",
   "trades": [
     {
       "date": "2026-08-21",
@@ -147,7 +147,7 @@
       "status": "Open",
       "exitDate": "",
       "exitPrice": "",
-      "maxProfit": 13.05,
+      "maxProfit": 7.93,
       "maxDrawdown": 1.68,
       "daysHeld": 8,
       "pnl": "",
