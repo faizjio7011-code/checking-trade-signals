@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T00:43:34.511459Z",
+  "generatedAt": "2026-09-01T19:48:53.928378Z",
   "trades": [
     {
       "date": "2026-05-11",
@@ -20,7 +20,13 @@
       "lastDate": "2026-05-12",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-11",
@@ -41,7 +47,13 @@
       "lastDate": "2026-06-24",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-11",
@@ -60,9 +72,15 @@
       "pnl": -7.01,
       "lastPrice": 262.17,
       "lastDate": "2026-06-12",
-      "reentryDate": "2026-06-15",
+      "reentryDate": "2026-06-12",
       "reentrySide": "Red",
-      "reentryPrice": 243.1
+      "reentryEntry": 248.9,
+      "reentrySL": 279.7765,
+      "reentryTP": 266.3433,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-15",
+      "reentryExitPrice": 266.3433,
+      "reentryPnl": -7.01
     },
     {
       "date": "2026-05-11",
@@ -83,7 +101,13 @@
       "lastDate": "2026-05-11",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-12",
@@ -104,7 +128,13 @@
       "lastDate": "2026-07-02",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-12",
@@ -125,7 +155,13 @@
       "lastDate": "2026-05-21",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-12",
@@ -146,7 +182,13 @@
       "lastDate": "2026-06-01",
       "reentryDate": "2026-06-02",
       "reentrySide": "Green",
-      "reentryPrice": 179.6
+      "reentryEntry": 179.6,
+      "reentrySL": 163.9225,
+      "reentryTP": 193.2084,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-15",
+      "reentryExitPrice": 193.2084,
+      "reentryPnl": 7.58
     },
     {
       "date": "2026-05-12",
@@ -167,7 +209,13 @@
       "lastDate": "2026-05-15",
       "reentryDate": "2026-05-18",
       "reentrySide": "Green",
-      "reentryPrice": 119.53
+      "reentryEntry": 119.53,
+      "reentrySL": 111.8599,
+      "reentryTP": 128.4296,
+      "reentryStatus": "SL Hit",
+      "reentryExitDate": "2026-06-11",
+      "reentryExitPrice": 111.8599,
+      "reentryPnl": -6.42
     },
     {
       "date": "2026-05-12",
@@ -188,7 +236,13 @@
       "lastDate": "2026-05-13",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-13",
@@ -209,7 +263,13 @@
       "lastDate": "2026-05-19",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-13",
@@ -230,7 +290,13 @@
       "lastDate": "2026-05-21",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-13",
@@ -251,7 +317,13 @@
       "lastDate": "2026-08-10",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-13",
@@ -272,7 +344,13 @@
       "lastDate": "2026-05-25",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-13",
@@ -293,7 +371,13 @@
       "lastDate": "2026-05-20",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-13",
@@ -314,7 +398,13 @@
       "lastDate": "2026-07-13",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-13",
@@ -335,7 +425,13 @@
       "lastDate": "2026-05-21",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-13",
@@ -356,7 +452,13 @@
       "lastDate": "2026-05-13",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-13",
@@ -377,7 +479,13 @@
       "lastDate": "2026-06-30",
       "reentryDate": "2026-07-03",
       "reentrySide": "Red",
-      "reentryPrice": 624.25
+      "reentryEntry": 624.25,
+      "reentrySL": 679.9123,
+      "reentryTP": 718.8886,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-06",
+      "reentryExitPrice": 718.8886,
+      "reentryPnl": -15.16
     },
     {
       "date": "2026-05-13",
@@ -398,7 +506,13 @@
       "lastDate": "2026-05-25",
       "reentryDate": "2026-05-26",
       "reentrySide": "Green",
-      "reentryPrice": 1172.2
+      "reentryEntry": 1172.2,
+      "reentrySL": 1074.5579,
+      "reentryTP": 1240.424,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-05",
+      "reentryExitPrice": 1240.424,
+      "reentryPnl": 5.82
     },
     {
       "date": "2026-05-14",
@@ -419,7 +533,13 @@
       "lastDate": "2026-05-19",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-14",
@@ -440,7 +560,13 @@
       "lastDate": "2026-05-21",
       "reentryDate": "2026-05-25",
       "reentrySide": "Red",
-      "reentryPrice": 578.25
+      "reentryEntry": 578.25,
+      "reentrySL": 621.2152,
+      "reentryTP": 607.0399,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-05-26",
+      "reentryExitPrice": 607.0399,
+      "reentryPnl": -4.98
     },
     {
       "date": "2026-05-14",
@@ -461,7 +587,13 @@
       "lastDate": "2026-05-20",
       "reentryDate": "2026-05-21",
       "reentrySide": "Green",
-      "reentryPrice": 85.24
+      "reentryEntry": 85.24,
+      "reentrySL": 80.3372,
+      "reentryTP": 91.8171,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-22",
+      "reentryExitPrice": 91.8171,
+      "reentryPnl": 7.72
     },
     {
       "date": "2026-05-14",
@@ -482,7 +614,13 @@
       "lastDate": "2026-05-18",
       "reentryDate": "2026-05-19",
       "reentrySide": "Red",
-      "reentryPrice": 249.55
+      "reentryEntry": 249.55,
+      "reentrySL": 277.0608,
+      "reentryTP": 276.3073,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-05-20",
+      "reentryExitPrice": 276.3073,
+      "reentryPnl": -10.72
     },
     {
       "date": "2026-05-15",
@@ -503,7 +641,13 @@
       "lastDate": "2026-06-01",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-15",
@@ -524,7 +668,13 @@
       "lastDate": "2026-05-18",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-15",
@@ -545,7 +695,13 @@
       "lastDate": "2026-05-26",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-15",
@@ -566,7 +722,13 @@
       "lastDate": "2026-06-22",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-15",
@@ -587,7 +749,13 @@
       "lastDate": "2026-05-15",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-15",
@@ -608,7 +776,13 @@
       "lastDate": "2026-05-29",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-15",
@@ -629,7 +803,13 @@
       "lastDate": "2026-06-12",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-18",
@@ -650,7 +830,13 @@
       "lastDate": "2026-05-19",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-18",
@@ -671,7 +857,13 @@
       "lastDate": "2026-05-20",
       "reentryDate": "2026-05-25",
       "reentrySide": "Red",
-      "reentryPrice": 358.25
+      "reentryEntry": 358.25,
+      "reentrySL": 395.5321,
+      "reentryTP": 392.6721,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-05-26",
+      "reentryExitPrice": 392.6721,
+      "reentryPnl": -9.61
     },
     {
       "date": "2026-05-19",
@@ -692,7 +884,13 @@
       "lastDate": "2026-05-19",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-19",
@@ -713,7 +911,13 @@
       "lastDate": "2026-05-22",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-19",
@@ -734,7 +938,13 @@
       "lastDate": "2026-06-11",
       "reentryDate": "2026-06-12",
       "reentrySide": "Green",
-      "reentryPrice": 448.8
+      "reentryEntry": 448.8,
+      "reentrySL": 409.0543,
+      "reentryTP": 481.1736,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-23",
+      "reentryExitPrice": 481.1736,
+      "reentryPnl": 7.21
     },
     {
       "date": "2026-05-19",
@@ -755,7 +965,13 @@
       "lastDate": "2026-06-11",
       "reentryDate": "2026-06-12",
       "reentrySide": "Green",
-      "reentryPrice": 757.55
+      "reentryEntry": 757.55,
+      "reentrySL": 710.5381,
+      "reentryTP": 792.1244,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-16",
+      "reentryExitPrice": 792.1244,
+      "reentryPnl": 4.56
     },
     {
       "date": "2026-05-19",
@@ -776,7 +992,13 @@
       "lastDate": "2026-06-02",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-19",
@@ -797,7 +1019,13 @@
       "lastDate": "2026-05-19",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-19",
@@ -812,13 +1040,19 @@
       "exitPrice": "",
       "maxProfit": 6.92,
       "maxDrawdown": 5.6,
-      "daysHeld": 101,
+      "daysHeld": 104,
       "pnl": "",
-      "lastPrice": 441.45,
-      "lastDate": "2026-08-28",
+      "lastPrice": 437.8,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-19",
@@ -839,7 +1073,13 @@
       "lastDate": "2026-05-22",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-19",
@@ -860,7 +1100,13 @@
       "lastDate": "2026-05-21",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-19",
@@ -881,7 +1127,13 @@
       "lastDate": "2026-05-26",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-19",
@@ -902,7 +1154,13 @@
       "lastDate": "2026-06-04",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-19",
@@ -921,9 +1179,15 @@
       "pnl": -7.6,
       "lastPrice": 256.88,
       "lastDate": "2026-06-02",
-      "reentryDate": "2026-06-12",
+      "reentryDate": "2026-06-02",
       "reentrySide": "Green",
-      "reentryPrice": 255.4
+      "reentryEntry": 268.4,
+      "reentrySL": 241.4445,
+      "reentryTP": 288.7907,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-16",
+      "reentryExitPrice": 288.7907,
+      "reentryPnl": 7.6
     },
     {
       "date": "2026-05-19",
@@ -944,7 +1208,13 @@
       "lastDate": "2026-06-01",
       "reentryDate": "2026-06-04",
       "reentrySide": "Green",
-      "reentryPrice": 400.15
+      "reentryEntry": 400.15,
+      "reentrySL": 382.3564,
+      "reentryTP": 425.5837,
+      "reentryStatus": "SL Hit",
+      "reentryExitDate": "2026-07-08",
+      "reentryExitPrice": 382.3564,
+      "reentryPnl": -4.45
     },
     {
       "date": "2026-05-19",
@@ -963,9 +1233,15 @@
       "pnl": -6.56,
       "lastPrice": 254.99,
       "lastDate": "2026-06-01",
-      "reentryDate": "2026-06-02",
+      "reentryDate": "2026-06-01",
       "reentrySide": "Green",
-      "reentryPrice": 237.25
+      "reentryEntry": 240.05,
+      "reentrySL": 220.0724,
+      "reentryTP": 255.8041,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-14",
+      "reentryExitPrice": 255.8041,
+      "reentryPnl": 6.56
     },
     {
       "date": "2026-05-19",
@@ -986,7 +1262,13 @@
       "lastDate": "2026-06-17",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-19",
@@ -1007,7 +1289,13 @@
       "lastDate": "2026-06-01",
       "reentryDate": "2026-06-02",
       "reentrySide": "Green",
-      "reentryPrice": 348.55
+      "reentryEntry": 348.55,
+      "reentrySL": 317.3942,
+      "reentryTP": 371.3916,
+      "reentryStatus": "SL Hit",
+      "reentryExitDate": "2026-07-24",
+      "reentryExitPrice": 317.3942,
+      "reentryPnl": -8.94
     },
     {
       "date": "2026-05-19",
@@ -1028,7 +1316,13 @@
       "lastDate": "2026-05-26",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-19",
@@ -1049,7 +1343,13 @@
       "lastDate": "2026-06-16",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-19",
@@ -1070,7 +1370,13 @@
       "lastDate": "2026-05-29",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-19",
@@ -1091,7 +1397,13 @@
       "lastDate": "2026-06-11",
       "reentryDate": "2026-06-12",
       "reentrySide": "Green",
-      "reentryPrice": 619.5
+      "reentryEntry": 619.5,
+      "reentrySL": 592.14,
+      "reentryTP": 653.3085,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-15",
+      "reentryExitPrice": 653.3085,
+      "reentryPnl": 5.46
     },
     {
       "date": "2026-05-20",
@@ -1112,7 +1424,13 @@
       "lastDate": "2026-05-27",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-20",
@@ -1133,7 +1451,13 @@
       "lastDate": "2026-05-25",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-20",
@@ -1154,7 +1478,13 @@
       "lastDate": "2026-05-25",
       "reentryDate": "2026-06-01",
       "reentrySide": "Red",
-      "reentryPrice": 195.96
+      "reentryEntry": 195.96,
+      "reentrySL": 213.4881,
+      "reentryTP": 220.5964,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-02",
+      "reentryExitPrice": 220.5964,
+      "reentryPnl": -12.57
     },
     {
       "date": "2026-05-20",
@@ -1175,7 +1505,13 @@
       "lastDate": "2026-05-26",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-20",
@@ -1196,7 +1532,13 @@
       "lastDate": "2026-05-25",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-20",
@@ -1211,13 +1553,19 @@
       "exitPrice": "",
       "maxProfit": 7.71,
       "maxDrawdown": 11.19,
-      "daysHeld": 100,
+      "daysHeld": 103,
       "pnl": "",
-      "lastPrice": 293.45,
-      "lastDate": "2026-08-28",
+      "lastPrice": 294.1,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-20",
@@ -1238,7 +1586,13 @@
       "lastDate": "2026-05-22",
       "reentryDate": "2026-05-25",
       "reentrySide": "Red",
-      "reentryPrice": 71.81
+      "reentryEntry": 71.81,
+      "reentrySL": 78.011,
+      "reentryTP": 77.6163,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-05-26",
+      "reentryExitPrice": 77.6163,
+      "reentryPnl": -8.09
     },
     {
       "date": "2026-05-20",
@@ -1259,7 +1613,13 @@
       "lastDate": "2026-06-01",
       "reentryDate": "2026-06-03",
       "reentrySide": "Red",
-      "reentryPrice": 1472.3
+      "reentryEntry": 1472.3,
+      "reentrySL": 1598.2416,
+      "reentryTP": 1571.9561,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-04",
+      "reentryExitPrice": 1571.9561,
+      "reentryPnl": -6.77
     },
     {
       "date": "2026-05-21",
@@ -1280,7 +1640,13 @@
       "lastDate": "2026-06-03",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-22",
@@ -1301,7 +1667,13 @@
       "lastDate": "2026-05-22",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-22",
@@ -1322,7 +1694,13 @@
       "lastDate": "2026-06-18",
       "reentryDate": "2026-06-22",
       "reentrySide": "Red",
-      "reentryPrice": 175.82
+      "reentryEntry": 175.82,
+      "reentrySL": 190.8126,
+      "reentryTP": 189.7705,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-23",
+      "reentryExitPrice": 189.7705,
+      "reentryPnl": -7.93
     },
     {
       "date": "2026-05-22",
@@ -1343,7 +1721,13 @@
       "lastDate": "2026-05-22",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-25",
@@ -1364,7 +1748,13 @@
       "lastDate": "2026-06-17",
       "reentryDate": "2026-06-18",
       "reentrySide": "Red",
-      "reentryPrice": 12666.0
+      "reentryEntry": 12666.0,
+      "reentrySL": 13322.9192,
+      "reentryTP": 13156.3185,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-19",
+      "reentryExitPrice": 13156.3185,
+      "reentryPnl": -3.87
     },
     {
       "date": "2026-05-25",
@@ -1385,7 +1775,13 @@
       "lastDate": "2026-06-10",
       "reentryDate": "2026-06-12",
       "reentrySide": "Red",
-      "reentryPrice": 317.7
+      "reentryEntry": 317.7,
+      "reentrySL": 359.4535,
+      "reentryTP": 350.2123,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-15",
+      "reentryExitPrice": 350.2123,
+      "reentryPnl": -10.23
     },
     {
       "date": "2026-05-25",
@@ -1404,9 +1800,15 @@
       "pnl": -5.14,
       "lastPrice": 241.1,
       "lastDate": "2026-06-01",
-      "reentryDate": "2026-06-03",
+      "reentryDate": "2026-06-01",
       "reentrySide": "Red",
-      "reentryPrice": 229.71
+      "reentryEntry": 231.55,
+      "reentrySL": 253.7648,
+      "reentryTP": 243.4469,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-02",
+      "reentryExitPrice": 243.4469,
+      "reentryPnl": -5.14
     },
     {
       "date": "2026-05-25",
@@ -1427,7 +1829,13 @@
       "lastDate": "2026-05-26",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-25",
@@ -1448,7 +1856,13 @@
       "lastDate": "2026-05-26",
       "reentryDate": "2026-05-29",
       "reentrySide": "Red",
-      "reentryPrice": 189.94
+      "reentryEntry": 189.94,
+      "reentrySL": 212.6818,
+      "reentryTP": 199.388,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-01",
+      "reentryExitPrice": 199.388,
+      "reentryPnl": -4.97
     },
     {
       "date": "2026-05-25",
@@ -1469,7 +1883,13 @@
       "lastDate": "2026-05-27",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-25",
@@ -1490,7 +1910,13 @@
       "lastDate": "2026-06-01",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-25",
@@ -1511,7 +1937,13 @@
       "lastDate": "2026-06-11",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-25",
@@ -1530,9 +1962,15 @@
       "pnl": -6.55,
       "lastPrice": 1518.28,
       "lastDate": "2026-05-27",
-      "reentryDate": "2026-05-29",
+      "reentryDate": "2026-05-27",
       "reentrySide": "Red",
-      "reentryPrice": 1398.0
+      "reentryEntry": 1450.1,
+      "reentrySL": 1582.7453,
+      "reentryTP": 1545.023,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-05-28",
+      "reentryExitPrice": 1545.023,
+      "reentryPnl": -6.55
     },
     {
       "date": "2026-05-26",
@@ -1553,7 +1991,13 @@
       "lastDate": "2026-05-29",
       "reentryDate": "2026-06-01",
       "reentrySide": "Red",
-      "reentryPrice": 162.46
+      "reentryEntry": 162.46,
+      "reentrySL": 174.9238,
+      "reentryTP": 170.1264,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-02",
+      "reentryExitPrice": 170.1264,
+      "reentryPnl": -4.72
     },
     {
       "date": "2026-05-26",
@@ -1574,7 +2018,13 @@
       "lastDate": "2026-06-11",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-26",
@@ -1595,7 +2045,13 @@
       "lastDate": "2026-06-10",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-26",
@@ -1616,7 +2072,13 @@
       "lastDate": "2026-05-29",
       "reentryDate": "2026-06-01",
       "reentrySide": "Red",
-      "reentryPrice": 522.0
+      "reentryEntry": 522.0,
+      "reentrySL": 567.0776,
+      "reentryTP": 555.207,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-02",
+      "reentryExitPrice": 555.207,
+      "reentryPnl": -6.36
     },
     {
       "date": "2026-05-26",
@@ -1637,7 +2099,13 @@
       "lastDate": "2026-06-03",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-26",
@@ -1658,7 +2126,13 @@
       "lastDate": "2026-06-05",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-26",
@@ -1679,7 +2153,13 @@
       "lastDate": "2026-06-11",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-27",
@@ -1700,7 +2180,13 @@
       "lastDate": "2026-06-04",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-27",
@@ -1721,7 +2207,13 @@
       "lastDate": "2026-07-22",
       "reentryDate": "2026-07-27",
       "reentrySide": "Red",
-      "reentryPrice": 339.85
+      "reentryEntry": 339.85,
+      "reentrySL": 383.7842,
+      "reentryTP": 385.5041,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-28",
+      "reentryExitPrice": 385.5041,
+      "reentryPnl": -13.43
     },
     {
       "date": "2026-05-27",
@@ -1742,7 +2234,13 @@
       "lastDate": "2026-06-01",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-27",
@@ -1763,7 +2261,13 @@
       "lastDate": "2026-06-25",
       "reentryDate": "2026-06-30",
       "reentrySide": "Red",
-      "reentryPrice": 391.85
+      "reentryEntry": 391.85,
+      "reentrySL": 422.1162,
+      "reentryTP": 434.9768,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-01",
+      "reentryExitPrice": 434.9768,
+      "reentryPnl": -11.01
     },
     {
       "date": "2026-05-27",
@@ -1784,7 +2288,13 @@
       "lastDate": "2026-06-08",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-27",
@@ -1805,7 +2315,13 @@
       "lastDate": "2026-06-15",
       "reentryDate": "2026-06-16",
       "reentrySide": "Red",
-      "reentryPrice": 1043.85
+      "reentryEntry": 1043.85,
+      "reentrySL": 1126.4781,
+      "reentryTP": 1091.7345,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-17",
+      "reentryExitPrice": 1091.7345,
+      "reentryPnl": -4.59
     },
     {
       "date": "2026-05-27",
@@ -1826,7 +2342,13 @@
       "lastDate": "2026-06-02",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-27",
@@ -1847,7 +2369,13 @@
       "lastDate": "2026-06-05",
       "reentryDate": "2026-06-08",
       "reentrySide": "Red",
-      "reentryPrice": 667.2
+      "reentryEntry": 667.2,
+      "reentrySL": 727.1188,
+      "reentryTP": 718.7958,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-09",
+      "reentryExitPrice": 718.7958,
+      "reentryPnl": -7.73
     },
     {
       "date": "2026-05-27",
@@ -1868,7 +2396,13 @@
       "lastDate": "2026-06-08",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-27",
@@ -1889,7 +2423,13 @@
       "lastDate": "2026-06-01",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-27",
@@ -1908,9 +2448,15 @@
       "pnl": -5.64,
       "lastPrice": 383.8,
       "lastDate": "2026-06-15",
-      "reentryDate": "2026-06-17",
+      "reentryDate": "2026-06-15",
       "reentrySide": "Red",
-      "reentryPrice": 373.6
+      "reentryEntry": 374.55,
+      "reentrySL": 400.5493,
+      "reentryTP": 395.6848,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-16",
+      "reentryExitPrice": 395.6848,
+      "reentryPnl": -5.64
     },
     {
       "date": "2026-05-27",
@@ -1931,7 +2477,13 @@
       "lastDate": "2026-08-14",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-05-27",
@@ -1952,7 +2504,13 @@
       "lastDate": "2026-06-01",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-01",
@@ -1973,7 +2531,13 @@
       "lastDate": "2026-07-03",
       "reentryDate": "2026-07-06",
       "reentrySide": "Red",
-      "reentryPrice": 677.1
+      "reentryEntry": 677.1,
+      "reentrySL": 714.8951,
+      "reentryTP": 724.7085,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-07",
+      "reentryExitPrice": 724.7085,
+      "reentryPnl": -7.03
     },
     {
       "date": "2026-06-01",
@@ -1994,7 +2558,13 @@
       "lastDate": "2026-06-17",
       "reentryDate": "2026-06-18",
       "reentrySide": "Red",
-      "reentryPrice": 9500.0
+      "reentryEntry": 9500.0,
+      "reentrySL": 9954.2555,
+      "reentryTP": 9924.1622,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-19",
+      "reentryExitPrice": 9924.1622,
+      "reentryPnl": -4.46
     },
     {
       "date": "2026-06-01",
@@ -2015,7 +2585,13 @@
       "lastDate": "2026-06-15",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-01",
@@ -2036,7 +2612,13 @@
       "lastDate": "2026-06-11",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-01",
@@ -2057,7 +2639,13 @@
       "lastDate": "2026-06-25",
       "reentryDate": "2026-07-01",
       "reentrySide": "Green",
-      "reentryPrice": 550.15
+      "reentryEntry": 550.15,
+      "reentrySL": 523.1104,
+      "reentryTP": 593.3225,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-08",
+      "reentryExitPrice": 593.3225,
+      "reentryPnl": 7.85
     },
     {
       "date": "2026-06-01",
@@ -2078,7 +2666,13 @@
       "lastDate": "2026-06-18",
       "reentryDate": "2026-06-19",
       "reentrySide": "Red",
-      "reentryPrice": 5060.8999
+      "reentryEntry": 5060.8999,
+      "reentrySL": 5521.0289,
+      "reentryTP": 5551.5176,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-22",
+      "reentryExitPrice": 5551.5176,
+      "reentryPnl": -9.69
     },
     {
       "date": "2026-06-01",
@@ -2099,7 +2693,13 @@
       "lastDate": "2026-06-15",
       "reentryDate": "2026-06-16",
       "reentrySide": "Red",
-      "reentryPrice": 1660.7
+      "reentryEntry": 1660.7,
+      "reentrySL": 1730.1595,
+      "reentryTP": 1739.3441,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-17",
+      "reentryExitPrice": 1739.3441,
+      "reentryPnl": -4.74
     },
     {
       "date": "2026-06-01",
@@ -2120,7 +2720,13 @@
       "lastDate": "2026-06-05",
       "reentryDate": "2026-06-10",
       "reentrySide": "Red",
-      "reentryPrice": 236.49
+      "reentryEntry": 236.49,
+      "reentrySL": 257.1945,
+      "reentryTP": 257.2781,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-11",
+      "reentryExitPrice": 257.2781,
+      "reentryPnl": -8.79
     },
     {
       "date": "2026-06-01",
@@ -2139,9 +2745,15 @@
       "pnl": -4.67,
       "lastPrice": 552.24,
       "lastDate": "2026-06-15",
-      "reentryDate": "2026-06-16",
+      "reentryDate": "2026-06-15",
       "reentrySide": "Red",
-      "reentryPrice": 548.4
+      "reentryEntry": 546.3,
+      "reentrySL": 581.2416,
+      "reentryTP": 571.8337,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-16",
+      "reentryExitPrice": 571.8337,
+      "reentryPnl": -4.67
     },
     {
       "date": "2026-06-01",
@@ -2162,7 +2774,13 @@
       "lastDate": "2026-06-19",
       "reentryDate": "2026-06-24",
       "reentrySide": "Red",
-      "reentryPrice": 113.29
+      "reentryEntry": 113.29,
+      "reentrySL": 119.0385,
+      "reentryTP": 121.4556,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-25",
+      "reentryExitPrice": 121.4556,
+      "reentryPnl": -7.21
     },
     {
       "date": "2026-06-02",
@@ -2183,7 +2801,13 @@
       "lastDate": "2026-06-04",
       "reentryDate": "2026-06-05",
       "reentrySide": "Red",
-      "reentryPrice": 570.05
+      "reentryEntry": 570.05,
+      "reentrySL": 619.6831,
+      "reentryTP": 593.6018,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-08",
+      "reentryExitPrice": 593.6018,
+      "reentryPnl": -4.13
     },
     {
       "date": "2026-06-02",
@@ -2204,7 +2828,13 @@
       "lastDate": "2026-06-10",
       "reentryDate": "2026-06-11",
       "reentrySide": "Green",
-      "reentryPrice": 83.14
+      "reentryEntry": 83.14,
+      "reentrySL": 74.2818,
+      "reentryTP": 88.8667,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-15",
+      "reentryExitPrice": 88.8667,
+      "reentryPnl": 6.89
     },
     {
       "date": "2026-06-02",
@@ -2225,7 +2855,13 @@
       "lastDate": "2026-07-01",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-02",
@@ -2246,7 +2882,13 @@
       "lastDate": "2026-06-10",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-02",
@@ -2267,7 +2909,13 @@
       "lastDate": "2026-06-11",
       "reentryDate": "2026-06-12",
       "reentrySide": "Green",
-      "reentryPrice": 345.6
+      "reentryEntry": 345.6,
+      "reentrySL": 319.3077,
+      "reentryTP": 365.5473,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-16",
+      "reentryExitPrice": 365.5473,
+      "reentryPnl": 5.77
     },
     {
       "date": "2026-06-02",
@@ -2288,7 +2936,13 @@
       "lastDate": "2026-06-08",
       "reentryDate": "2026-06-09",
       "reentrySide": "Green",
-      "reentryPrice": 67.9
+      "reentryEntry": 67.9,
+      "reentrySL": 61.1877,
+      "reentryTP": 71.6281,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-16",
+      "reentryExitPrice": 71.6281,
+      "reentryPnl": 5.49
     },
     {
       "date": "2026-06-02",
@@ -2309,7 +2963,13 @@
       "lastDate": "2026-06-11",
       "reentryDate": "2026-06-12",
       "reentrySide": "Green",
-      "reentryPrice": 7159.5
+      "reentryEntry": 7159.5,
+      "reentrySL": 5979.6374,
+      "reentryTP": 7960.0413,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-17",
+      "reentryExitPrice": 7960.0413,
+      "reentryPnl": 11.18
     },
     {
       "date": "2026-06-03",
@@ -2330,7 +2990,13 @@
       "lastDate": "2026-06-23",
       "reentryDate": "2026-06-24",
       "reentrySide": "Red",
-      "reentryPrice": 594.65
+      "reentryEntry": 594.65,
+      "reentrySL": 640.1592,
+      "reentryTP": 654.8312,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-25",
+      "reentryExitPrice": 654.8312,
+      "reentryPnl": -10.12
     },
     {
       "date": "2026-06-03",
@@ -2345,13 +3011,19 @@
       "exitPrice": "",
       "maxProfit": 11.49,
       "maxDrawdown": 6.04,
-      "daysHeld": 86,
+      "daysHeld": 89,
       "pnl": "",
-      "lastPrice": 607.7,
-      "lastDate": "2026-08-28",
+      "lastPrice": 603.0,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-04",
@@ -2372,7 +3044,13 @@
       "lastDate": "2026-06-05",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-04",
@@ -2393,7 +3071,13 @@
       "lastDate": "2026-07-10",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-04",
@@ -2414,7 +3098,13 @@
       "lastDate": "2026-06-16",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-05",
@@ -2435,7 +3125,13 @@
       "lastDate": "2026-06-29",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-05",
@@ -2456,7 +3152,13 @@
       "lastDate": "2026-06-15",
       "reentryDate": "2026-06-17",
       "reentrySide": "Red",
-      "reentryPrice": 217.28
+      "reentryEntry": 217.28,
+      "reentrySL": 227.4137,
+      "reentryTP": 229.7174,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-18",
+      "reentryExitPrice": 229.7174,
+      "reentryPnl": -5.72
     },
     {
       "date": "2026-06-05",
@@ -2477,7 +3179,13 @@
       "lastDate": "2026-06-17",
       "reentryDate": "2026-06-18",
       "reentrySide": "Red",
-      "reentryPrice": 9500.0
+      "reentryEntry": 9500.0,
+      "reentrySL": 9954.2555,
+      "reentryTP": 9949.082,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-19",
+      "reentryExitPrice": 9949.082,
+      "reentryPnl": -4.73
     },
     {
       "date": "2026-06-09",
@@ -2498,7 +3206,13 @@
       "lastDate": "2026-06-19",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-09",
@@ -2519,7 +3233,13 @@
       "lastDate": "2026-06-19",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-09",
@@ -2540,7 +3260,13 @@
       "lastDate": "2026-06-18",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-09",
@@ -2561,7 +3287,13 @@
       "lastDate": "2026-06-19",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-09",
@@ -2582,7 +3314,13 @@
       "lastDate": "2026-06-25",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-09",
@@ -2603,7 +3341,13 @@
       "lastDate": "2026-06-25",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-09",
@@ -2624,7 +3368,13 @@
       "lastDate": "2026-06-15",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-09",
@@ -2645,7 +3395,13 @@
       "lastDate": "2026-06-17",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-10",
@@ -2666,7 +3422,13 @@
       "lastDate": "2026-07-07",
       "reentryDate": "2026-07-08",
       "reentrySide": "Red",
-      "reentryPrice": 680.0
+      "reentryEntry": 680.0,
+      "reentrySL": 726.5232,
+      "reentryTP": 742.8375,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-09",
+      "reentryExitPrice": 742.8375,
+      "reentryPnl": -9.24
     },
     {
       "date": "2026-06-10",
@@ -2687,7 +3449,13 @@
       "lastDate": "2026-06-19",
       "reentryDate": "2026-06-22",
       "reentrySide": "Red",
-      "reentryPrice": 776.7
+      "reentryEntry": 776.7,
+      "reentrySL": 826.9911,
+      "reentryTP": 807.1954,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-23",
+      "reentryExitPrice": 807.1954,
+      "reentryPnl": -3.93
     },
     {
       "date": "2026-06-10",
@@ -2708,7 +3476,13 @@
       "lastDate": "2026-06-18",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-10",
@@ -2727,9 +3501,15 @@
       "pnl": -7.35,
       "lastPrice": 827.79,
       "lastDate": "2026-06-17",
-      "reentryDate": "2026-06-18",
+      "reentryDate": "2026-06-17",
       "reentrySide": "Red",
-      "reentryPrice": 816.05
+      "reentryEntry": 817.35,
+      "reentrySL": 854.5448,
+      "reentryTP": 877.4644,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-18",
+      "reentryExitPrice": 877.4644,
+      "reentryPnl": -7.35
     },
     {
       "date": "2026-06-10",
@@ -2750,7 +3530,13 @@
       "lastDate": "2026-07-22",
       "reentryDate": "2026-07-24",
       "reentrySide": "Green",
-      "reentryPrice": 16.22
+      "reentryEntry": 16.22,
+      "reentrySL": 15.4983,
+      "reentryTP": 17.0582,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-27",
+      "reentryExitPrice": 17.0582,
+      "reentryPnl": 5.17
     },
     {
       "date": "2026-06-11",
@@ -2771,7 +3557,13 @@
       "lastDate": "2026-06-16",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-11",
@@ -2792,7 +3584,13 @@
       "lastDate": "2026-06-16",
       "reentryDate": "2026-06-18",
       "reentrySide": "Red",
-      "reentryPrice": 862.0
+      "reentryEntry": 862.0,
+      "reentrySL": 901.1469,
+      "reentryTP": 930.7087,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-19",
+      "reentryExitPrice": 930.7087,
+      "reentryPnl": -7.97
     },
     {
       "date": "2026-06-11",
@@ -2813,7 +3611,13 @@
       "lastDate": "2026-08-03",
       "reentryDate": "2026-08-04",
       "reentrySide": "Green",
-      "reentryPrice": 70.99
+      "reentryEntry": 70.99,
+      "reentrySL": 66.3405,
+      "reentryTP": 76.3319,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-31",
+      "reentryExitPrice": 76.3319,
+      "reentryPnl": 7.52
     },
     {
       "date": "2026-06-12",
@@ -2834,7 +3638,13 @@
       "lastDate": "2026-06-19",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-12",
@@ -2855,7 +3665,13 @@
       "lastDate": "2026-06-15",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-12",
@@ -2870,13 +3686,19 @@
       "exitPrice": "",
       "maxProfit": 17.03,
       "maxDrawdown": 3.88,
-      "daysHeld": 77,
+      "daysHeld": 80,
       "pnl": "",
-      "lastPrice": 248.8,
-      "lastDate": "2026-08-28",
+      "lastPrice": 243.34,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-12",
@@ -2897,7 +3719,13 @@
       "lastDate": "2026-07-08",
       "reentryDate": "2026-07-09",
       "reentrySide": "Green",
-      "reentryPrice": 76.66
+      "reentryEntry": 76.66,
+      "reentrySL": 72.3095,
+      "reentryTP": 81.9745,
+      "reentryStatus": "SL Hit",
+      "reentryExitDate": "2026-07-29",
+      "reentryExitPrice": 72.3095,
+      "reentryPnl": -5.68
     },
     {
       "date": "2026-06-12",
@@ -2918,7 +3746,13 @@
       "lastDate": "2026-06-16",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-12",
@@ -2939,7 +3773,13 @@
       "lastDate": "2026-06-17",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-12",
@@ -2960,7 +3800,13 @@
       "lastDate": "2026-06-15",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-12",
@@ -2981,7 +3827,13 @@
       "lastDate": "2026-06-22",
       "reentryDate": "2026-06-24",
       "reentrySide": "Red",
-      "reentryPrice": 1392.2
+      "reentryEntry": 1392.2,
+      "reentrySL": 1544.1035,
+      "reentryTP": 1501.9835,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-25",
+      "reentryExitPrice": 1501.9835,
+      "reentryPnl": -7.89
     },
     {
       "date": "2026-06-12",
@@ -3002,7 +3854,13 @@
       "lastDate": "2026-07-23",
       "reentryDate": "2026-07-24",
       "reentrySide": "Green",
-      "reentryPrice": 938.0
+      "reentryEntry": 938.0,
+      "reentrySL": 872.3677,
+      "reentryTP": 1032.1216,
+      "reentryStatus": "SL Hit",
+      "reentryExitDate": "2026-08-13",
+      "reentryExitPrice": 872.3677,
+      "reentryPnl": -7.0
     },
     {
       "date": "2026-06-12",
@@ -3023,7 +3881,13 @@
       "lastDate": "2026-06-15",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-12",
@@ -3044,7 +3908,13 @@
       "lastDate": "2026-06-16",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-15",
@@ -3065,7 +3935,13 @@
       "lastDate": "2026-07-01",
       "reentryDate": "2026-07-03",
       "reentrySide": "Red",
-      "reentryPrice": 216.76
+      "reentryEntry": 216.76,
+      "reentrySL": 226.5927,
+      "reentryTP": 226.885,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-06",
+      "reentryExitPrice": 226.885,
+      "reentryPnl": -4.67
     },
     {
       "date": "2026-06-15",
@@ -3084,9 +3960,15 @@
       "pnl": -7.4,
       "lastPrice": 197.04,
       "lastDate": "2026-06-23",
-      "reentryDate": "2026-06-24",
+      "reentryDate": "2026-06-23",
       "reentrySide": "Red",
-      "reentryPrice": 184.94
+      "reentryEntry": 189.11,
+      "reentrySL": 206.2361,
+      "reentryTP": 203.0972,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-24",
+      "reentryExitPrice": 203.0972,
+      "reentryPnl": -7.4
     },
     {
       "date": "2026-06-15",
@@ -3105,9 +3987,15 @@
       "pnl": -6.17,
       "lastPrice": 1521.95,
       "lastDate": "2026-07-10",
-      "reentryDate": "2026-07-13",
+      "reentryDate": "2026-07-10",
       "reentrySide": "Green",
-      "reentryPrice": 1673.0
+      "reentryEntry": 1626.9,
+      "reentrySL": 1435.0294,
+      "reentryTP": 1727.2523,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-27",
+      "reentryExitPrice": 1727.2523,
+      "reentryPnl": 6.17
     },
     {
       "date": "2026-06-16",
@@ -3128,7 +4016,13 @@
       "lastDate": "2026-07-09",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-16",
@@ -3149,7 +4043,13 @@
       "lastDate": "2026-06-19",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-16",
@@ -3170,7 +4070,13 @@
       "lastDate": "2026-06-22",
       "reentryDate": "2026-06-23",
       "reentrySide": "Red",
-      "reentryPrice": 1217.4
+      "reentryEntry": 1217.4,
+      "reentrySL": 1305.417,
+      "reentryTP": 1303.0811,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-24",
+      "reentryExitPrice": 1303.0811,
+      "reentryPnl": -7.04
     },
     {
       "date": "2026-06-16",
@@ -3191,7 +4097,13 @@
       "lastDate": "2026-06-18",
       "reentryDate": "2026-06-23",
       "reentrySide": "Red",
-      "reentryPrice": 47.34
+      "reentryEntry": 47.34,
+      "reentrySL": 51.4091,
+      "reentryTP": 50.0241,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-24",
+      "reentryExitPrice": 50.0241,
+      "reentryPnl": -5.67
     },
     {
       "date": "2026-06-16",
@@ -3212,7 +4124,13 @@
       "lastDate": "2026-07-02",
       "reentryDate": "2026-07-03",
       "reentrySide": "Red",
-      "reentryPrice": 325.25
+      "reentryEntry": 325.25,
+      "reentrySL": 343.4988,
+      "reentryTP": 349.3352,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-06",
+      "reentryExitPrice": 349.3352,
+      "reentryPnl": -7.41
     },
     {
       "date": "2026-06-16",
@@ -3231,9 +4149,15 @@
       "pnl": -4.24,
       "lastPrice": 1741.2,
       "lastDate": "2026-06-18",
-      "reentryDate": "2026-06-23",
+      "reentryDate": "2026-06-18",
       "reentrySide": "Red",
-      "reentryPrice": 1716.6
+      "reentryEntry": 1720.4,
+      "reentrySL": 1836.3855,
+      "reentryTP": 1793.3193,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-19",
+      "reentryExitPrice": 1793.3193,
+      "reentryPnl": -4.24
     },
     {
       "date": "2026-06-16",
@@ -3254,7 +4178,13 @@
       "lastDate": "2026-06-24",
       "reentryDate": "2026-06-29",
       "reentrySide": "Red",
-      "reentryPrice": 4008.8999
+      "reentryEntry": 4008.8999,
+      "reentrySL": 4179.6559,
+      "reentryTP": 4171.7291,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-30",
+      "reentryExitPrice": 4171.7291,
+      "reentryPnl": -4.06
     },
     {
       "date": "2026-06-16",
@@ -3275,7 +4205,13 @@
       "lastDate": "2026-07-14",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-17",
@@ -3296,7 +4232,13 @@
       "lastDate": "2026-06-19",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-17",
@@ -3317,7 +4259,13 @@
       "lastDate": "2026-07-02",
       "reentryDate": "2026-07-03",
       "reentrySide": "Red",
-      "reentryPrice": 176.06
+      "reentryEntry": 176.06,
+      "reentrySL": 193.0807,
+      "reentryTP": 193.8664,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-06",
+      "reentryExitPrice": 193.8664,
+      "reentryPnl": -10.11
     },
     {
       "date": "2026-06-17",
@@ -3338,7 +4286,13 @@
       "lastDate": "2026-06-22",
       "reentryDate": "2026-06-23",
       "reentrySide": "Red",
-      "reentryPrice": 127.45
+      "reentryEntry": 127.45,
+      "reentrySL": 137.8943,
+      "reentryTP": 136.139,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-24",
+      "reentryExitPrice": 136.139,
+      "reentryPnl": -6.82
     },
     {
       "date": "2026-06-17",
@@ -3359,7 +4313,13 @@
       "lastDate": "2026-06-29",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-17",
@@ -3380,7 +4340,13 @@
       "lastDate": "2026-07-01",
       "reentryDate": "2026-07-02",
       "reentrySide": "Red",
-      "reentryPrice": 216.31
+      "reentryEntry": 216.31,
+      "reentrySL": 228.3806,
+      "reentryTP": 231.4517,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-03",
+      "reentryExitPrice": 231.4517,
+      "reentryPnl": -7.0
     },
     {
       "date": "2026-06-18",
@@ -3401,7 +4367,13 @@
       "lastDate": "2026-07-02",
       "reentryDate": "2026-07-03",
       "reentrySide": "Red",
-      "reentryPrice": 448.5
+      "reentryEntry": 448.5,
+      "reentrySL": 471.6156,
+      "reentryTP": 475.2474,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-06",
+      "reentryExitPrice": 475.2474,
+      "reentryPnl": -5.96
     },
     {
       "date": "2026-06-18",
@@ -3422,7 +4394,13 @@
       "lastDate": "2026-06-22",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-18",
@@ -3443,7 +4421,13 @@
       "lastDate": "2026-06-24",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-18",
@@ -3462,9 +4446,15 @@
       "pnl": -5.18,
       "lastPrice": 32.49,
       "lastDate": "2026-06-23",
-      "reentryDate": "2026-06-25",
+      "reentryDate": "2026-06-23",
       "reentrySide": "Red",
-      "reentryPrice": 33.87
+      "reentryEntry": 32.12,
+      "reentrySL": 34.6658,
+      "reentryTP": 33.7837,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-24",
+      "reentryExitPrice": 33.7837,
+      "reentryPnl": -5.18
     },
     {
       "date": "2026-06-18",
@@ -3485,7 +4475,13 @@
       "lastDate": "2026-07-03",
       "reentryDate": "2026-07-06",
       "reentrySide": "Red",
-      "reentryPrice": 572.52
+      "reentryEntry": 572.52,
+      "reentrySL": 595.6706,
+      "reentryTP": 600.7678,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-07",
+      "reentryExitPrice": 600.7678,
+      "reentryPnl": -4.93
     },
     {
       "date": "2026-06-18",
@@ -3506,7 +4502,13 @@
       "lastDate": "2026-06-25",
       "reentryDate": "2026-06-29",
       "reentrySide": "Red",
-      "reentryPrice": 1032.65
+      "reentryEntry": 1032.65,
+      "reentrySL": 1082.8513,
+      "reentryTP": 1068.7413,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-30",
+      "reentryExitPrice": 1068.7413,
+      "reentryPnl": -3.5
     },
     {
       "date": "2026-06-18",
@@ -3527,7 +4529,13 @@
       "lastDate": "2026-08-12",
       "reentryDate": "2026-08-14",
       "reentrySide": "Red",
-      "reentryPrice": 114.01
+      "reentryEntry": 114.01,
+      "reentrySL": 124.9577,
+      "reentryTP": 119.6677,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-17",
+      "reentryExitPrice": 119.6677,
+      "reentryPnl": -4.96
     },
     {
       "date": "2026-06-19",
@@ -3548,7 +4556,13 @@
       "lastDate": "2026-06-22",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-19",
@@ -3569,7 +4583,13 @@
       "lastDate": "2026-06-30",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-19",
@@ -3588,9 +4608,15 @@
       "pnl": -3.47,
       "lastPrice": 4886.53,
       "lastDate": "2026-08-28",
-      "reentryDate": "",
-      "reentrySide": "",
-      "reentryPrice": ""
+      "reentryDate": "2026-08-31",
+      "reentrySide": "Red",
+      "reentryEntry": 4848.5,
+      "reentrySL": 5081.8279,
+      "reentryTP": 5016.7062,
+      "reentryStatus": "Open",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-19",
@@ -3611,7 +4637,13 @@
       "lastDate": "2026-08-18",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-19",
@@ -3632,7 +4664,13 @@
       "lastDate": "2026-07-17",
       "reentryDate": "2026-07-21",
       "reentrySide": "Green",
-      "reentryPrice": 92.54
+      "reentryEntry": 92.54,
+      "reentrySL": 89.7886,
+      "reentryTP": 96.3576,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-23",
+      "reentryExitPrice": 96.3576,
+      "reentryPnl": 4.13
     },
     {
       "date": "2026-06-19",
@@ -3653,7 +4691,13 @@
       "lastDate": "2026-07-01",
       "reentryDate": "2026-07-03",
       "reentrySide": "Red",
-      "reentryPrice": 458.65
+      "reentryEntry": 458.65,
+      "reentrySL": 491.5149,
+      "reentryTP": 483.8704,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-06",
+      "reentryExitPrice": 483.8704,
+      "reentryPnl": -5.5
     },
     {
       "date": "2026-06-22",
@@ -3674,7 +4718,13 @@
       "lastDate": "2026-06-24",
       "reentryDate": "2026-06-25",
       "reentrySide": "Red",
-      "reentryPrice": 761.45
+      "reentryEntry": 761.45,
+      "reentrySL": 821.1827,
+      "reentryTP": 804.2431,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-26",
+      "reentryExitPrice": 804.2431,
+      "reentryPnl": -5.62
     },
     {
       "date": "2026-06-22",
@@ -3695,7 +4745,13 @@
       "lastDate": "2026-06-24",
       "reentryDate": "2026-06-25",
       "reentrySide": "Red",
-      "reentryPrice": 162.43
+      "reentryEntry": 162.43,
+      "reentrySL": 176.3239,
+      "reentryTP": 171.4231,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-26",
+      "reentryExitPrice": 171.4231,
+      "reentryPnl": -5.54
     },
     {
       "date": "2026-06-22",
@@ -3714,9 +4770,15 @@
       "pnl": -7.37,
       "lastPrice": 44.3,
       "lastDate": "2026-08-07",
-      "reentryDate": "2026-08-10",
+      "reentryDate": "2026-08-07",
       "reentrySide": "Red",
-      "reentryPrice": 42.77
+      "reentryEntry": 42.58,
+      "reentrySL": 46.0236,
+      "reentryTP": 45.7173,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-10",
+      "reentryExitPrice": 45.7173,
+      "reentryPnl": -7.37
     },
     {
       "date": "2026-06-22",
@@ -3737,7 +4799,13 @@
       "lastDate": "2026-07-08",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-22",
@@ -3758,7 +4826,13 @@
       "lastDate": "2026-07-02",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-22",
@@ -3779,7 +4853,13 @@
       "lastDate": "2026-07-06",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-23",
@@ -3800,7 +4880,13 @@
       "lastDate": "2026-07-24",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-23",
@@ -3821,7 +4907,13 @@
       "lastDate": "2026-07-17",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-23",
@@ -3842,7 +4934,13 @@
       "lastDate": "2026-07-17",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-23",
@@ -3863,7 +4961,13 @@
       "lastDate": "2026-06-24",
       "reentryDate": "2026-06-25",
       "reentrySide": "Red",
-      "reentryPrice": 115.46
+      "reentryEntry": 115.46,
+      "reentrySL": 127.8203,
+      "reentryTP": 120.4126,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-06-26",
+      "reentryExitPrice": 120.4126,
+      "reentryPnl": -4.29
     },
     {
       "date": "2026-06-23",
@@ -3884,7 +4988,13 @@
       "lastDate": "2026-06-29",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-23",
@@ -3905,7 +5015,13 @@
       "lastDate": "2026-06-30",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-23",
@@ -3924,9 +5040,15 @@
       "pnl": -8.58,
       "lastPrice": 830.42,
       "lastDate": "2026-07-10",
-      "reentryDate": "2026-07-13",
+      "reentryDate": "2026-07-10",
       "reentrySide": "Red",
-      "reentryPrice": 796.5
+      "reentryEntry": 809.95,
+      "reentrySL": 877.8913,
+      "reentryTP": 879.4439,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-13",
+      "reentryExitPrice": 879.4439,
+      "reentryPnl": -8.58
     },
     {
       "date": "2026-06-23",
@@ -3941,13 +5063,19 @@
       "exitPrice": "",
       "maxProfit": 7.32,
       "maxDrawdown": 3.1,
-      "daysHeld": 66,
+      "daysHeld": 69,
       "pnl": "",
-      "lastPrice": 3458.0,
-      "lastDate": "2026-08-28",
+      "lastPrice": 3474.1001,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-23",
@@ -3968,7 +5096,13 @@
       "lastDate": "2026-06-30",
       "reentryDate": "2026-07-03",
       "reentrySide": "Red",
-      "reentryPrice": 898.55
+      "reentryEntry": 898.55,
+      "reentrySL": 950.305,
+      "reentryTP": 939.9233,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-06",
+      "reentryExitPrice": 939.9233,
+      "reentryPnl": -4.6
     },
     {
       "date": "2026-06-23",
@@ -3989,7 +5123,13 @@
       "lastDate": "2026-07-17",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-23",
@@ -4010,7 +5150,13 @@
       "lastDate": "2026-06-30",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-23",
@@ -4031,7 +5177,13 @@
       "lastDate": "2026-08-11",
       "reentryDate": "2026-08-12",
       "reentrySide": "Red",
-      "reentryPrice": 894.7
+      "reentryEntry": 894.7,
+      "reentrySL": 996.9287,
+      "reentryTP": 947.2367,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-13",
+      "reentryExitPrice": 947.2367,
+      "reentryPnl": -5.87
     },
     {
       "date": "2026-06-24",
@@ -4052,7 +5204,13 @@
       "lastDate": "2026-07-22",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-24",
@@ -4073,7 +5231,13 @@
       "lastDate": "2026-06-29",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-24",
@@ -4094,7 +5258,13 @@
       "lastDate": "2026-07-13",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-24",
@@ -4115,7 +5285,13 @@
       "lastDate": "2026-07-07",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-24",
@@ -4136,7 +5312,13 @@
       "lastDate": "2026-06-30",
       "reentryDate": "2026-07-02",
       "reentrySide": "Red",
-      "reentryPrice": 59.79
+      "reentryEntry": 59.79,
+      "reentrySL": 65.1456,
+      "reentryTP": 63.3465,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-03",
+      "reentryExitPrice": 63.3465,
+      "reentryPnl": -5.95
     },
     {
       "date": "2026-06-24",
@@ -4157,7 +5339,13 @@
       "lastDate": "2026-07-03",
       "reentryDate": "2026-07-06",
       "reentrySide": "Red",
-      "reentryPrice": 173.09
+      "reentryEntry": 173.09,
+      "reentrySL": 183.2802,
+      "reentryTP": 181.7902,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-07",
+      "reentryExitPrice": 181.7902,
+      "reentryPnl": -5.03
     },
     {
       "date": "2026-06-25",
@@ -4178,7 +5366,13 @@
       "lastDate": "2026-07-08",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-25",
@@ -4199,7 +5393,13 @@
       "lastDate": "2026-07-09",
       "reentryDate": "2026-07-10",
       "reentrySide": "Red",
-      "reentryPrice": 118.65
+      "reentryEntry": 118.65,
+      "reentrySL": 125.8676,
+      "reentryTP": 125.6325,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-13",
+      "reentryExitPrice": 125.6325,
+      "reentryPnl": -5.88
     },
     {
       "date": "2026-06-25",
@@ -4220,7 +5420,13 @@
       "lastDate": "2026-08-13",
       "reentryDate": "2026-08-14",
       "reentrySide": "Red",
-      "reentryPrice": 351.85
+      "reentryEntry": 351.85,
+      "reentrySL": 371.2953,
+      "reentryTP": 412.4422,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-17",
+      "reentryExitPrice": 412.4422,
+      "reentryPnl": -17.22
     },
     {
       "date": "2026-06-30",
@@ -4241,7 +5447,13 @@
       "lastDate": "2026-07-06",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-06-30",
@@ -4262,7 +5474,13 @@
       "lastDate": "2026-07-20",
       "reentryDate": "2026-07-21",
       "reentrySide": "Green",
-      "reentryPrice": 4257.2998
+      "reentryEntry": 4257.2998,
+      "reentrySL": 4011.2253,
+      "reentryTP": 4594.4701,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-31",
+      "reentryExitPrice": 4594.4701,
+      "reentryPnl": 7.92
     },
     {
       "date": "2026-06-30",
@@ -4283,7 +5501,13 @@
       "lastDate": "2026-07-08",
       "reentryDate": "2026-07-09",
       "reentrySide": "Green",
-      "reentryPrice": 1585.8
+      "reentryEntry": 1585.8,
+      "reentrySL": 1413.3051,
+      "reentryTP": 1732.6298,
+      "reentryStatus": "SL Hit",
+      "reentryExitDate": "2026-07-29",
+      "reentryExitPrice": 1413.3051,
+      "reentryPnl": -10.88
     },
     {
       "date": "2026-06-30",
@@ -4304,7 +5528,13 @@
       "lastDate": "2026-07-08",
       "reentryDate": "2026-07-09",
       "reentrySide": "Green",
-      "reentryPrice": 281.1
+      "reentryEntry": 281.1,
+      "reentrySL": 261.2367,
+      "reentryTP": 295.8208,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-05",
+      "reentryExitPrice": 295.8208,
+      "reentryPnl": 5.24
     },
     {
       "date": "2026-06-30",
@@ -4325,7 +5555,13 @@
       "lastDate": "2026-07-06",
       "reentryDate": "2026-07-07",
       "reentrySide": "Red",
-      "reentryPrice": 1731.0
+      "reentryEntry": 1731.0,
+      "reentrySL": 1829.6253,
+      "reentryTP": 1861.2485,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-08",
+      "reentryExitPrice": 1861.2485,
+      "reentryPnl": -7.52
     },
     {
       "date": "2026-06-30",
@@ -4346,7 +5582,13 @@
       "lastDate": "2026-07-15",
       "reentryDate": "2026-07-17",
       "reentrySide": "Green",
-      "reentryPrice": 127.47
+      "reentryEntry": 127.47,
+      "reentrySL": 117.5966,
+      "reentryTP": 136.2061,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-20",
+      "reentryExitPrice": 136.2061,
+      "reentryPnl": 6.85
     },
     {
       "date": "2026-07-01",
@@ -4367,7 +5609,13 @@
       "lastDate": "2026-07-02",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-01",
@@ -4388,7 +5636,13 @@
       "lastDate": "2026-07-06",
       "reentryDate": "2026-07-07",
       "reentrySide": "Red",
-      "reentryPrice": 29.05
+      "reentryEntry": 29.05,
+      "reentrySL": 31.9939,
+      "reentryTP": 30.7826,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-08",
+      "reentryExitPrice": 30.7826,
+      "reentryPnl": -5.96
     },
     {
       "date": "2026-07-01",
@@ -4409,7 +5663,13 @@
       "lastDate": "2026-07-23",
       "reentryDate": "2026-07-24",
       "reentrySide": "Green",
-      "reentryPrice": 475.7
+      "reentryEntry": 475.7,
+      "reentrySL": 441.7801,
+      "reentryTP": 505.4277,
+      "reentryStatus": "SL Hit",
+      "reentryExitDate": "2026-08-11",
+      "reentryExitPrice": 441.7801,
+      "reentryPnl": -7.13
     },
     {
       "date": "2026-07-01",
@@ -4430,7 +5690,13 @@
       "lastDate": "2026-07-09",
       "reentryDate": "2026-07-10",
       "reentrySide": "Red",
-      "reentryPrice": 154.24
+      "reentryEntry": 154.24,
+      "reentrySL": 171.829,
+      "reentryTP": 171.7018,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-13",
+      "reentryExitPrice": 171.7018,
+      "reentryPnl": -11.32
     },
     {
       "date": "2026-07-01",
@@ -4451,7 +5717,13 @@
       "lastDate": "2026-07-02",
       "reentryDate": "2026-07-03",
       "reentrySide": "Red",
-      "reentryPrice": 560.0
+      "reentryEntry": 560.0,
+      "reentrySL": 614.1718,
+      "reentryTP": 590.3908,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-06",
+      "reentryExitPrice": 590.3908,
+      "reentryPnl": -5.43
     },
     {
       "date": "2026-07-01",
@@ -4472,7 +5744,13 @@
       "lastDate": "2026-07-27",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-01",
@@ -4491,9 +5769,15 @@
       "pnl": -3.68,
       "lastPrice": 1039.21,
       "lastDate": "2026-08-27",
-      "reentryDate": "",
-      "reentrySide": "",
-      "reentryPrice": ""
+      "reentryDate": "2026-08-27",
+      "reentrySide": "Green",
+      "reentryEntry": 1042.0,
+      "reentrySL": 1015.3005,
+      "reentryTP": 1080.3325,
+      "reentryStatus": "Open",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-02",
@@ -4514,7 +5798,13 @@
       "lastDate": "2026-07-07",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-02",
@@ -4535,7 +5825,13 @@
       "lastDate": "2026-07-24",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-02",
@@ -4556,7 +5852,13 @@
       "lastDate": "2026-07-17",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-02",
@@ -4577,7 +5879,13 @@
       "lastDate": "2026-07-08",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-03",
@@ -4598,7 +5906,13 @@
       "lastDate": "2026-07-31",
       "reentryDate": "2026-08-03",
       "reentrySide": "Red",
-      "reentryPrice": 124.56
+      "reentryEntry": 124.56,
+      "reentrySL": 134.3479,
+      "reentryTP": 132.0023,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-04",
+      "reentryExitPrice": 132.0023,
+      "reentryPnl": -5.97
     },
     {
       "date": "2026-07-03",
@@ -4619,7 +5933,13 @@
       "lastDate": "2026-07-21",
       "reentryDate": "2026-07-24",
       "reentrySide": "Red",
-      "reentryPrice": 340.15
+      "reentryEntry": 340.15,
+      "reentrySL": 365.6196,
+      "reentryTP": 360.9026,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-27",
+      "reentryExitPrice": 360.9026,
+      "reentryPnl": -6.1
     },
     {
       "date": "2026-07-03",
@@ -4640,7 +5960,13 @@
       "lastDate": "2026-07-17",
       "reentryDate": "2026-07-20",
       "reentrySide": "Green",
-      "reentryPrice": 53.3
+      "reentryEntry": 53.3,
+      "reentrySL": 46.2819,
+      "reentryTP": 57.4089,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-23",
+      "reentryExitPrice": 57.4089,
+      "reentryPnl": 7.71
     },
     {
       "date": "2026-07-03",
@@ -4650,18 +5976,24 @@
       "entry": 52.5,
       "stoploss": 47.98,
       "target": 60.15,
-      "status": "Open",
-      "exitDate": "",
-      "exitPrice": "",
+      "status": "SL Hit",
+      "exitDate": "2026-08-31",
+      "exitPrice": 47.98,
       "maxProfit": 12.55,
-      "maxDrawdown": 6.67,
-      "daysHeld": 56,
-      "pnl": "",
-      "lastPrice": 49.27,
-      "lastDate": "2026-08-28",
+      "maxDrawdown": 10.76,
+      "daysHeld": 59,
+      "pnl": -8.61,
+      "lastPrice": 47.98,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-03",
@@ -4682,7 +6014,13 @@
       "lastDate": "2026-08-06",
       "reentryDate": "2026-08-10",
       "reentrySide": "Red",
-      "reentryPrice": 1071.0
+      "reentryEntry": 1071.0,
+      "reentrySL": 1135.843,
+      "reentryTP": 1094.8462,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-11",
+      "reentryExitPrice": 1094.8462,
+      "reentryPnl": -2.23
     },
     {
       "date": "2026-07-03",
@@ -4703,7 +6041,13 @@
       "lastDate": "2026-08-18",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-06",
@@ -4724,7 +6068,13 @@
       "lastDate": "2026-08-12",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-06",
@@ -4745,7 +6095,13 @@
       "lastDate": "2026-07-13",
       "reentryDate": "2026-07-14",
       "reentrySide": "Red",
-      "reentryPrice": 569.4
+      "reentryEntry": 569.4,
+      "reentrySL": 618.3853,
+      "reentryTP": 597.0834,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-15",
+      "reentryExitPrice": 597.0834,
+      "reentryPnl": -4.86
     },
     {
       "date": "2026-07-06",
@@ -4766,7 +6122,13 @@
       "lastDate": "2026-08-12",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-06",
@@ -4787,7 +6149,13 @@
       "lastDate": "2026-07-23",
       "reentryDate": "2026-07-24",
       "reentrySide": "Red",
-      "reentryPrice": 201.19
+      "reentryEntry": 201.19,
+      "reentrySL": 216.9032,
+      "reentryTP": 214.9557,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-27",
+      "reentryExitPrice": 214.9557,
+      "reentryPnl": -6.84
     },
     {
       "date": "2026-07-07",
@@ -4808,7 +6176,13 @@
       "lastDate": "2026-07-29",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-07",
@@ -4829,7 +6203,13 @@
       "lastDate": "2026-07-08",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-08",
@@ -4850,7 +6230,13 @@
       "lastDate": "2026-07-13",
       "reentryDate": "2026-07-14",
       "reentrySide": "Red",
-      "reentryPrice": 721.8
+      "reentryEntry": 721.8,
+      "reentrySL": 780.6494,
+      "reentryTP": 773.6033,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-15",
+      "reentryExitPrice": 773.6033,
+      "reentryPnl": -7.18
     },
     {
       "date": "2026-07-08",
@@ -4869,9 +6255,15 @@
       "pnl": -6.62,
       "lastPrice": 1531.43,
       "lastDate": "2026-07-29",
-      "reentryDate": "2026-07-31",
+      "reentryDate": "2026-07-29",
       "reentrySide": "Green",
-      "reentryPrice": 1539.0
+      "reentryEntry": 1548.1,
+      "reentrySL": 1404.351,
+      "reentryTP": 1650.5861,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-05",
+      "reentryExitPrice": 1650.5861,
+      "reentryPnl": 6.62
     },
     {
       "date": "2026-07-08",
@@ -4890,9 +6282,15 @@
       "pnl": -13.44,
       "lastPrice": 812.35,
       "lastDate": "2026-07-08",
-      "reentryDate": "2026-07-10",
+      "reentryDate": "2026-07-08",
       "reentrySide": "Red",
-      "reentryPrice": 810.9
+      "reentryEntry": 789.65,
+      "reentrySL": 876.8667,
+      "reentryTP": 895.7682,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-09",
+      "reentryExitPrice": 895.7682,
+      "reentryPnl": -13.44
     },
     {
       "date": "2026-07-08",
@@ -4913,7 +6311,13 @@
       "lastDate": "2026-07-20",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-08",
@@ -4934,7 +6338,13 @@
       "lastDate": "2026-07-27",
       "reentryDate": "2026-07-28",
       "reentrySide": "Red",
-      "reentryPrice": 312.05
+      "reentryEntry": 312.05,
+      "reentrySL": 337.1955,
+      "reentryTP": 333.3594,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-29",
+      "reentryExitPrice": 333.3594,
+      "reentryPnl": -6.83
     },
     {
       "date": "2026-07-08",
@@ -4955,7 +6365,13 @@
       "lastDate": "2026-07-09",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-08",
@@ -4976,7 +6392,13 @@
       "lastDate": "2026-07-16",
       "reentryDate": "2026-07-17",
       "reentrySide": "Red",
-      "reentryPrice": 584.55
+      "reentryEntry": 584.55,
+      "reentrySL": 618.2597,
+      "reentryTP": 617.6569,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-20",
+      "reentryExitPrice": 617.6569,
+      "reentryPnl": -5.66
     },
     {
       "date": "2026-07-09",
@@ -4997,7 +6419,13 @@
       "lastDate": "2026-07-13",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-09",
@@ -5018,7 +6446,13 @@
       "lastDate": "2026-07-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-09",
@@ -5033,13 +6467,19 @@
       "exitPrice": "",
       "maxProfit": 11.71,
       "maxDrawdown": 8.45,
-      "daysHeld": 50,
+      "daysHeld": 53,
       "pnl": "",
-      "lastPrice": 59.17,
-      "lastDate": "2026-08-28",
+      "lastPrice": 56.29,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-09",
@@ -5054,13 +6494,19 @@
       "exitPrice": "",
       "maxProfit": 7.96,
       "maxDrawdown": 2.54,
-      "daysHeld": 50,
+      "daysHeld": 53,
       "pnl": "",
-      "lastPrice": 1092.6,
-      "lastDate": "2026-08-28",
+      "lastPrice": 1069.3,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-09",
@@ -5081,7 +6527,13 @@
       "lastDate": "2026-07-20",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-09",
@@ -5100,9 +6552,15 @@
       "pnl": -7.76,
       "lastPrice": 1449.78,
       "lastDate": "2026-08-12",
-      "reentryDate": "2026-08-13",
+      "reentryDate": "2026-08-12",
       "reentrySide": "Green",
-      "reentryPrice": 1635.5
+      "reentryEntry": 1537.2,
+      "reentrySL": 1340.1027,
+      "reentryTP": 1656.5339,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-13",
+      "reentryExitPrice": 1656.5339,
+      "reentryPnl": 7.76
     },
     {
       "date": "2026-07-09",
@@ -5116,14 +6574,20 @@
       "exitDate": "",
       "exitPrice": "",
       "maxProfit": 5.97,
-      "maxDrawdown": 8.38,
-      "daysHeld": 50,
+      "maxDrawdown": 9.02,
+      "daysHeld": 53,
       "pnl": "",
-      "lastPrice": 20.74,
-      "lastDate": "2026-08-28",
+      "lastPrice": 20.11,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-09",
@@ -5144,7 +6608,13 @@
       "lastDate": "2026-07-16",
       "reentryDate": "2026-07-20",
       "reentrySide": "Green",
-      "reentryPrice": 66.75
+      "reentryEntry": 66.75,
+      "reentrySL": 62.2828,
+      "reentryTP": 70.3161,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-27",
+      "reentryExitPrice": 70.3161,
+      "reentryPnl": 5.34
     },
     {
       "date": "2026-07-10",
@@ -5165,7 +6635,13 @@
       "lastDate": "2026-07-23",
       "reentryDate": "2026-07-24",
       "reentrySide": "Red",
-      "reentryPrice": 201.19
+      "reentryEntry": 201.19,
+      "reentrySL": 216.9032,
+      "reentryTP": 210.2288,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-27",
+      "reentryExitPrice": 210.2288,
+      "reentryPnl": -4.49
     },
     {
       "date": "2026-07-13",
@@ -5186,7 +6662,13 @@
       "lastDate": "2026-07-27",
       "reentryDate": "2026-07-28",
       "reentrySide": "Red",
-      "reentryPrice": 77.49
+      "reentryEntry": 77.49,
+      "reentrySL": 86.0361,
+      "reentryTP": 83.8845,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-29",
+      "reentryExitPrice": 83.8845,
+      "reentryPnl": -8.25
     },
     {
       "date": "2026-07-13",
@@ -5207,7 +6689,13 @@
       "lastDate": "2026-07-21",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-14",
@@ -5228,7 +6716,13 @@
       "lastDate": "2026-08-07",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-14",
@@ -5249,7 +6743,13 @@
       "lastDate": "2026-07-24",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-14",
@@ -5264,13 +6764,19 @@
       "exitPrice": "",
       "maxProfit": 15.23,
       "maxDrawdown": 1.15,
-      "daysHeld": 45,
+      "daysHeld": 48,
       "pnl": "",
-      "lastPrice": 1116.8,
-      "lastDate": "2026-08-28",
+      "lastPrice": 1106.6,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-14",
@@ -5291,7 +6797,13 @@
       "lastDate": "2026-07-29",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-14",
@@ -5312,7 +6824,13 @@
       "lastDate": "2026-08-17",
       "reentryDate": "2026-08-18",
       "reentrySide": "Red",
-      "reentryPrice": 419.95
+      "reentryEntry": 419.95,
+      "reentrySL": 443.4314,
+      "reentryTP": 446.8983,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-19",
+      "reentryExitPrice": 446.8983,
+      "reentryPnl": -6.42
     },
     {
       "date": "2026-07-14",
@@ -5327,13 +6845,19 @@
       "exitPrice": "",
       "maxProfit": 15.95,
       "maxDrawdown": 6.71,
-      "daysHeld": 45,
+      "daysHeld": 48,
       "pnl": "",
-      "lastPrice": 1486.3,
-      "lastDate": "2026-08-28",
+      "lastPrice": 1554.4,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-15",
@@ -5354,7 +6878,13 @@
       "lastDate": "2026-08-10",
       "reentryDate": "2026-08-12",
       "reentrySide": "Green",
-      "reentryPrice": 303.0
+      "reentryEntry": 303.0,
+      "reentrySL": 282.4867,
+      "reentryTP": 322.7929,
+      "reentryStatus": "SL Hit",
+      "reentryExitDate": "2026-08-31",
+      "reentryExitPrice": 282.4867,
+      "reentryPnl": -6.77
     },
     {
       "date": "2026-07-15",
@@ -5373,9 +6903,15 @@
       "pnl": -7.45,
       "lastPrice": 1453.01,
       "lastDate": "2026-08-12",
-      "reentryDate": "2026-08-13",
+      "reentryDate": "2026-08-12",
       "reentrySide": "Green",
-      "reentryPrice": 1635.5
+      "reentryEntry": 1537.2,
+      "reentrySL": 1340.1027,
+      "reentryTP": 1651.6552,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-13",
+      "reentryExitPrice": 1651.6552,
+      "reentryPnl": 7.45
     },
     {
       "date": "2026-07-15",
@@ -5396,7 +6932,13 @@
       "lastDate": "2026-07-27",
       "reentryDate": "2026-07-29",
       "reentrySide": "Green",
-      "reentryPrice": 523.75
+      "reentryEntry": 523.75,
+      "reentrySL": 502.7652,
+      "reentryTP": 547.9624,
+      "reentryStatus": "SL Hit",
+      "reentryExitDate": "2026-08-14",
+      "reentryExitPrice": 502.7652,
+      "reentryPnl": -4.01
     },
     {
       "date": "2026-07-16",
@@ -5417,7 +6959,13 @@
       "lastDate": "2026-07-28",
       "reentryDate": "2026-07-30",
       "reentrySide": "Red",
-      "reentryPrice": 606.0
+      "reentryEntry": 606.0,
+      "reentrySL": 651.4684,
+      "reentryTP": 703.6576,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-31",
+      "reentryExitPrice": 703.6576,
+      "reentryPnl": -16.12
     },
     {
       "date": "2026-07-16",
@@ -5438,7 +6986,13 @@
       "lastDate": "2026-07-22",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-16",
@@ -5457,9 +7011,15 @@
       "pnl": -4.7,
       "lastPrice": 654.35,
       "lastDate": "2026-07-21",
-      "reentryDate": "2026-07-22",
+      "reentryDate": "2026-07-21",
       "reentrySide": "Red",
-      "reentryPrice": 631.7
+      "reentryEntry": 640.45,
+      "reentrySL": 686.5822,
+      "reentryTP": 670.5255,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-22",
+      "reentryExitPrice": 670.5255,
+      "reentryPnl": -4.7
     },
     {
       "date": "2026-07-17",
@@ -5480,7 +7040,13 @@
       "lastDate": "2026-08-10",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-17",
@@ -5501,7 +7067,13 @@
       "lastDate": "2026-07-21",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-17",
@@ -5522,7 +7094,13 @@
       "lastDate": "2026-07-24",
       "reentryDate": "2026-07-27",
       "reentrySide": "Red",
-      "reentryPrice": 662.65
+      "reentryEntry": 662.65,
+      "reentrySL": 699.6508,
+      "reentryTP": 694.278,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-28",
+      "reentryExitPrice": 694.278,
+      "reentryPnl": -4.77
     },
     {
       "date": "2026-07-17",
@@ -5541,9 +7119,15 @@
       "pnl": -6.38,
       "lastPrice": 2996.55,
       "lastDate": "2026-08-18",
-      "reentryDate": "2026-08-19",
+      "reentryDate": "2026-08-18",
       "reentrySide": "Red",
-      "reentryPrice": 3452.3999
+      "reentryEntry": 3532.6001,
+      "reentrySL": 3809.8,
+      "reentryTP": 3757.8946,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-19",
+      "reentryExitPrice": 3757.8946,
+      "reentryPnl": -6.38
     },
     {
       "date": "2026-07-17",
@@ -5564,7 +7148,13 @@
       "lastDate": "2026-08-18",
       "reentryDate": "2026-08-19",
       "reentrySide": "Red",
-      "reentryPrice": 176.51
+      "reentryEntry": 176.51,
+      "reentrySL": 191.8228,
+      "reentryTP": 187.6846,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-20",
+      "reentryExitPrice": 187.6846,
+      "reentryPnl": -6.33
     },
     {
       "date": "2026-07-17",
@@ -5585,7 +7175,13 @@
       "lastDate": "2026-07-17",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-20",
@@ -5606,7 +7202,13 @@
       "lastDate": "2026-08-14",
       "reentryDate": "2026-08-18",
       "reentrySide": "Green",
-      "reentryPrice": 5792.0
+      "reentryEntry": 5792.0,
+      "reentrySL": 5561.4034,
+      "reentryTP": 6007.0822,
+      "reentryStatus": "Open",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-20",
@@ -5625,9 +7227,15 @@
       "pnl": -6.43,
       "lastPrice": 153.86,
       "lastDate": "2026-07-22",
-      "reentryDate": "2026-07-23",
+      "reentryDate": "2026-07-22",
       "reentrySide": "Red",
-      "reentryPrice": 145.07
+      "reentryEntry": 144.12,
+      "reentrySL": 159.938,
+      "reentryTP": 153.3811,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-23",
+      "reentryExitPrice": 153.3811,
+      "reentryPnl": -6.43
     },
     {
       "date": "2026-07-20",
@@ -5648,7 +7256,13 @@
       "lastDate": "2026-07-27",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-21",
@@ -5669,7 +7283,13 @@
       "lastDate": "2026-07-24",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-21",
@@ -5690,7 +7310,13 @@
       "lastDate": "2026-08-03",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-22",
@@ -5711,7 +7337,13 @@
       "lastDate": "2026-07-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-22",
@@ -5732,7 +7364,13 @@
       "lastDate": "2026-07-23",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-22",
@@ -5753,7 +7391,13 @@
       "lastDate": "2026-08-05",
       "reentryDate": "2026-08-10",
       "reentrySide": "Red",
-      "reentryPrice": 1607.4
+      "reentryEntry": 1607.4,
+      "reentrySL": 1730.7302,
+      "reentryTP": 1715.4604,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-11",
+      "reentryExitPrice": 1715.4604,
+      "reentryPnl": -6.72
     },
     {
       "date": "2026-07-22",
@@ -5774,7 +7418,13 @@
       "lastDate": "2026-08-06",
       "reentryDate": "2026-08-07",
       "reentrySide": "Red",
-      "reentryPrice": 389.4
+      "reentryEntry": 389.4,
+      "reentrySL": 406.4528,
+      "reentryTP": 413.6418,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-10",
+      "reentryExitPrice": 413.6418,
+      "reentryPnl": -6.23
     },
     {
       "date": "2026-07-23",
@@ -5795,7 +7445,13 @@
       "lastDate": "2026-08-14",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-23",
@@ -5814,9 +7470,15 @@
       "pnl": -4.4,
       "lastPrice": 194.93,
       "lastDate": "2026-08-20",
-      "reentryDate": "2026-08-21",
+      "reentryDate": "2026-08-20",
       "reentrySide": "Green",
-      "reentryPrice": 196.81
+      "reentryEntry": 195.66,
+      "reentrySL": 187.2579,
+      "reentryTP": 204.2675,
+      "reentryStatus": "Open",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-23",
@@ -5831,13 +7493,19 @@
       "exitPrice": "",
       "maxProfit": 5.03,
       "maxDrawdown": 4.7,
-      "daysHeld": 36,
+      "daysHeld": 39,
       "pnl": "",
-      "lastPrice": 1013.9,
-      "lastDate": "2026-08-28",
+      "lastPrice": 1036.3,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-23",
@@ -5858,7 +7526,13 @@
       "lastDate": "2026-07-28",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-23",
@@ -5873,13 +7547,19 @@
       "exitPrice": "",
       "maxProfit": 2.94,
       "maxDrawdown": 7.11,
-      "daysHeld": 36,
+      "daysHeld": 39,
       "pnl": "",
-      "lastPrice": 1694.7,
-      "lastDate": "2026-08-28",
+      "lastPrice": 1723.4,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-24",
@@ -5900,7 +7580,13 @@
       "lastDate": "2026-08-03",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-24",
@@ -5921,7 +7607,13 @@
       "lastDate": "2026-08-18",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-24",
@@ -5935,14 +7627,20 @@
       "exitDate": "",
       "exitPrice": "",
       "maxProfit": 7.84,
-      "maxDrawdown": 1.57,
-      "daysHeld": 35,
+      "maxDrawdown": 1.69,
+      "daysHeld": 38,
       "pnl": "",
-      "lastPrice": 160.56,
-      "lastDate": "2026-08-28",
+      "lastPrice": 157.72,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-24",
@@ -5963,7 +7661,13 @@
       "lastDate": "2026-07-24",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-24",
@@ -5984,7 +7688,13 @@
       "lastDate": "2026-08-14",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-24",
@@ -6005,7 +7715,13 @@
       "lastDate": "2026-08-13",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-27",
@@ -6026,7 +7742,13 @@
       "lastDate": "2026-07-28",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-27",
@@ -6047,7 +7769,13 @@
       "lastDate": "2026-07-28",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-27",
@@ -6068,7 +7796,13 @@
       "lastDate": "2026-07-29",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-27",
@@ -6087,9 +7821,15 @@
       "pnl": -7.92,
       "lastPrice": 159.66,
       "lastDate": "2026-08-17",
-      "reentryDate": "2026-08-19",
+      "reentryDate": "2026-08-17",
       "reentrySide": "Green",
-      "reentryPrice": 160.07
+      "reentryEntry": 159.87,
+      "reentrySL": 148.1408,
+      "reentryTP": 172.5379,
+      "reentryStatus": "Open",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-27",
@@ -6110,7 +7850,13 @@
       "lastDate": "2026-08-03",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-28",
@@ -6131,7 +7877,13 @@
       "lastDate": "2026-07-30",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-29",
@@ -6152,7 +7904,13 @@
       "lastDate": "2026-08-05",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-29",
@@ -6173,7 +7931,13 @@
       "lastDate": "2026-07-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-29",
@@ -6194,7 +7958,13 @@
       "lastDate": "2026-08-25",
       "reentryDate": "2026-08-26",
       "reentrySide": "Green",
-      "reentryPrice": 211.66
+      "reentryEntry": 211.66,
+      "reentrySL": 193.8827,
+      "reentryTP": 223.8151,
+      "reentryStatus": "Open",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-30",
@@ -6215,7 +7985,13 @@
       "lastDate": "2026-08-05",
       "reentryDate": "2026-08-06",
       "reentrySide": "Red",
-      "reentryPrice": 311.7
+      "reentryEntry": 311.7,
+      "reentrySL": 335.3767,
+      "reentryTP": 327.2567,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-07",
+      "reentryExitPrice": 327.2567,
+      "reentryPnl": -4.99
     },
     {
       "date": "2026-07-30",
@@ -6234,9 +8010,15 @@
       "pnl": -8.57,
       "lastPrice": 887.2,
       "lastDate": "2026-07-30",
-      "reentryDate": "2026-07-31",
+      "reentryDate": "2026-07-30",
       "reentrySide": "Red",
-      "reentryPrice": 802.85
+      "reentryEntry": 906.6,
+      "reentrySL": 984.7762,
+      "reentryTP": 984.2521,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-07-31",
+      "reentryExitPrice": 984.2521,
+      "reentryPnl": -8.57
     },
     {
       "date": "2026-07-30",
@@ -6257,7 +8039,13 @@
       "lastDate": "2026-08-11",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-30",
@@ -6276,9 +8064,15 @@
       "pnl": -5.81,
       "lastPrice": 3862.19,
       "lastDate": "2026-08-03",
-      "reentryDate": "2026-08-06",
+      "reentryDate": "2026-08-03",
       "reentrySide": "Red",
-      "reentryPrice": 3830.0
+      "reentryEntry": 3805.0,
+      "reentrySL": 4009.2411,
+      "reentryTP": 4026.2008,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-04",
+      "reentryExitPrice": 4026.2008,
+      "reentryPnl": -5.81
     },
     {
       "date": "2026-07-30",
@@ -6299,7 +8093,13 @@
       "lastDate": "2026-08-28",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-30",
@@ -6320,7 +8120,13 @@
       "lastDate": "2026-08-04",
       "reentryDate": "2026-08-05",
       "reentrySide": "Red",
-      "reentryPrice": 510.95
+      "reentryEntry": 510.95,
+      "reentrySL": 561.8225,
+      "reentryTP": 566.7085,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-06",
+      "reentryExitPrice": 566.7085,
+      "reentryPnl": -10.91
     },
     {
       "date": "2026-07-30",
@@ -6341,7 +8147,13 @@
       "lastDate": "2026-08-10",
       "reentryDate": "2026-08-11",
       "reentrySide": "Red",
-      "reentryPrice": 4581.7002
+      "reentryEntry": 4581.7002,
+      "reentrySL": 4848.3558,
+      "reentryTP": 4815.3676,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-12",
+      "reentryExitPrice": 4815.3676,
+      "reentryPnl": -5.1
     },
     {
       "date": "2026-07-31",
@@ -6362,7 +8174,13 @@
       "lastDate": "2026-08-10",
       "reentryDate": "2026-08-11",
       "reentrySide": "Red",
-      "reentryPrice": 267.55
+      "reentryEntry": 267.55,
+      "reentrySL": 299.6843,
+      "reentryTP": 302.3067,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-12",
+      "reentryExitPrice": 302.3067,
+      "reentryPnl": -12.99
     },
     {
       "date": "2026-07-31",
@@ -6383,7 +8201,13 @@
       "lastDate": "2026-08-07",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-31",
@@ -6404,7 +8228,13 @@
       "lastDate": "2026-08-11",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-31",
@@ -6425,7 +8255,13 @@
       "lastDate": "2026-08-06",
       "reentryDate": "2026-08-10",
       "reentrySide": "Red",
-      "reentryPrice": 88.71
+      "reentryEntry": 88.71,
+      "reentrySL": 95.1246,
+      "reentryTP": 92.4984,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-11",
+      "reentryExitPrice": 92.4984,
+      "reentryPnl": -4.27
     },
     {
       "date": "2026-07-31",
@@ -6446,7 +8282,13 @@
       "lastDate": "2026-08-06",
       "reentryDate": "2026-08-11",
       "reentrySide": "Red",
-      "reentryPrice": 865.2
+      "reentryEntry": 865.2,
+      "reentrySL": 927.5228,
+      "reentryTP": 924.215,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-12",
+      "reentryExitPrice": 924.215,
+      "reentryPnl": -6.82
     },
     {
       "date": "2026-07-31",
@@ -6461,13 +8303,19 @@
       "exitPrice": "",
       "maxProfit": 11.56,
       "maxDrawdown": 2.65,
-      "daysHeld": 28,
+      "daysHeld": 31,
       "pnl": "",
-      "lastPrice": 1025.5,
-      "lastDate": "2026-08-28",
+      "lastPrice": 982.05,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-03",
@@ -6481,14 +8329,20 @@
       "exitDate": "",
       "exitPrice": "",
       "maxProfit": 11.18,
-      "maxDrawdown": 2.94,
-      "daysHeld": 25,
+      "maxDrawdown": 3.08,
+      "daysHeld": 28,
       "pnl": "",
-      "lastPrice": 174.26,
-      "lastDate": "2026-08-28",
+      "lastPrice": 166.87,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-03",
@@ -6509,7 +8363,13 @@
       "lastDate": "2026-08-26",
       "reentryDate": "2026-08-27",
       "reentrySide": "Red",
-      "reentryPrice": 4018.8
+      "reentryEntry": 4018.8,
+      "reentrySL": 4254.088,
+      "reentryTP": 4198.985,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-28",
+      "reentryExitPrice": 4198.985,
+      "reentryPnl": -4.48
     },
     {
       "date": "2026-08-03",
@@ -6530,7 +8390,13 @@
       "lastDate": "2026-08-07",
       "reentryDate": "2026-08-10",
       "reentrySide": "Red",
-      "reentryPrice": 58.81
+      "reentryEntry": 58.81,
+      "reentrySL": 63.4049,
+      "reentryTP": 61.3044,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-11",
+      "reentryExitPrice": 61.3044,
+      "reentryPnl": -4.24
     },
     {
       "date": "2026-08-04",
@@ -6551,7 +8417,13 @@
       "lastDate": "2026-08-11",
       "reentryDate": "2026-08-12",
       "reentrySide": "Red",
-      "reentryPrice": 1379.5
+      "reentryEntry": 1379.5,
+      "reentrySL": 1515.1951,
+      "reentryTP": 1453.1851,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-13",
+      "reentryExitPrice": 1453.1851,
+      "reentryPnl": -5.34
     },
     {
       "date": "2026-08-04",
@@ -6572,7 +8444,13 @@
       "lastDate": "2026-08-05",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-04",
@@ -6593,7 +8471,13 @@
       "lastDate": "2026-08-10",
       "reentryDate": "2026-08-14",
       "reentrySide": "Red",
-      "reentryPrice": 1603.0
+      "reentryEntry": 1603.0,
+      "reentrySL": 1712.1746,
+      "reentryTP": 1656.6268,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-17",
+      "reentryExitPrice": 1656.6268,
+      "reentryPnl": -3.35
     },
     {
       "date": "2026-08-04",
@@ -6614,7 +8498,13 @@
       "lastDate": "2026-08-17",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-05",
@@ -6629,13 +8519,19 @@
       "exitPrice": "",
       "maxProfit": 5.1,
       "maxDrawdown": 4.69,
-      "daysHeld": 23,
+      "daysHeld": 26,
       "pnl": "",
-      "lastPrice": 696.0,
-      "lastDate": "2026-08-28",
+      "lastPrice": 702.55,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-05",
@@ -6656,7 +8552,13 @@
       "lastDate": "2026-08-20",
       "reentryDate": "2026-08-24",
       "reentrySide": "Red",
-      "reentryPrice": 601.05
+      "reentryEntry": 601.05,
+      "reentrySL": 665.2016,
+      "reentryTP": 670.1303,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-25",
+      "reentryExitPrice": 670.1303,
+      "reentryPnl": -11.49
     },
     {
       "date": "2026-08-05",
@@ -6671,13 +8573,19 @@
       "exitPrice": "",
       "maxProfit": 3.19,
       "maxDrawdown": 6.23,
-      "daysHeld": 23,
+      "daysHeld": 26,
       "pnl": "",
-      "lastPrice": 36.64,
-      "lastDate": "2026-08-28",
+      "lastPrice": 35.18,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-06",
@@ -6698,7 +8606,13 @@
       "lastDate": "2026-08-12",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-06",
@@ -6719,7 +8633,13 @@
       "lastDate": "2026-08-14",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-06",
@@ -6740,7 +8660,13 @@
       "lastDate": "2026-08-17",
       "reentryDate": "2026-08-18",
       "reentrySide": "Red",
-      "reentryPrice": 359.2
+      "reentryEntry": 359.2,
+      "reentrySL": 379.4127,
+      "reentryTP": 389.2711,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-19",
+      "reentryExitPrice": 389.2711,
+      "reentryPnl": -8.37
     },
     {
       "date": "2026-08-07",
@@ -6761,7 +8687,13 @@
       "lastDate": "2026-08-24",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-07",
@@ -6782,7 +8714,13 @@
       "lastDate": "2026-08-17",
       "reentryDate": "2026-08-19",
       "reentrySide": "Red",
-      "reentryPrice": 5017.0
+      "reentryEntry": 5017.0,
+      "reentrySL": 5201.3171,
+      "reentryTP": 5169.9752,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-20",
+      "reentryExitPrice": 5169.9752,
+      "reentryPnl": -3.05
     },
     {
       "date": "2026-08-07",
@@ -6803,7 +8741,13 @@
       "lastDate": "2026-08-07",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-07",
@@ -6824,7 +8768,13 @@
       "lastDate": "2026-08-14",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-07",
@@ -6845,7 +8795,13 @@
       "lastDate": "2026-08-07",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-10",
@@ -6860,13 +8816,19 @@
       "exitPrice": "",
       "maxProfit": 17.45,
       "maxDrawdown": 0.63,
-      "daysHeld": 18,
+      "daysHeld": 21,
       "pnl": "",
-      "lastPrice": 1268.1,
-      "lastDate": "2026-08-28",
+      "lastPrice": 1225.6,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-10",
@@ -6887,7 +8849,13 @@
       "lastDate": "2026-08-25",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-10",
@@ -6908,7 +8876,13 @@
       "lastDate": "2026-08-11",
       "reentryDate": "2026-08-12",
       "reentrySide": "Red",
-      "reentryPrice": 2039.3
+      "reentryEntry": 2039.3,
+      "reentrySL": 2188.7352,
+      "reentryTP": 2124.1733,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-13",
+      "reentryExitPrice": 2124.1733,
+      "reentryPnl": -4.16
     },
     {
       "date": "2026-08-10",
@@ -6923,13 +8897,19 @@
       "exitPrice": "",
       "maxProfit": 6.92,
       "maxDrawdown": 0.48,
-      "daysHeld": 18,
+      "daysHeld": 21,
       "pnl": "",
-      "lastPrice": 1047.5,
-      "lastDate": "2026-08-28",
+      "lastPrice": 1060.0,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-11",
@@ -6950,7 +8930,13 @@
       "lastDate": "2026-08-13",
       "reentryDate": "2026-08-17",
       "reentrySide": "Red",
-      "reentryPrice": 1014.65
+      "reentryEntry": 1014.65,
+      "reentrySL": 1123.9986,
+      "reentryTP": 1097.681,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-18",
+      "reentryExitPrice": 1097.681,
+      "reentryPnl": -8.18
     },
     {
       "date": "2026-08-11",
@@ -6971,7 +8957,13 @@
       "lastDate": "2026-08-14",
       "reentryDate": "2026-08-18",
       "reentrySide": "Red",
-      "reentryPrice": 44.64
+      "reentryEntry": 44.64,
+      "reentrySL": 48.8502,
+      "reentryTP": 46.9923,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-19",
+      "reentryExitPrice": 46.9923,
+      "reentryPnl": -5.27
     },
     {
       "date": "2026-08-11",
@@ -6985,14 +8977,20 @@
       "exitDate": "",
       "exitPrice": "",
       "maxProfit": 4.9,
-      "maxDrawdown": 6.15,
-      "daysHeld": 17,
+      "maxDrawdown": 8.03,
+      "daysHeld": 20,
       "pnl": "",
-      "lastPrice": 1061.6,
-      "lastDate": "2026-08-28",
+      "lastPrice": 1050.6,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-11",
@@ -7007,13 +9005,19 @@
       "exitPrice": "",
       "maxProfit": 7.94,
       "maxDrawdown": 2.0,
-      "daysHeld": 17,
+      "daysHeld": 20,
       "pnl": "",
-      "lastPrice": 250.72,
-      "lastDate": "2026-08-28",
+      "lastPrice": 248.97,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-11",
@@ -7034,7 +9038,13 @@
       "lastDate": "2026-08-28",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-11",
@@ -7055,7 +9065,13 @@
       "lastDate": "2026-08-11",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-12",
@@ -7070,13 +9086,19 @@
       "exitPrice": "",
       "maxProfit": 7.76,
       "maxDrawdown": 5.06,
-      "daysHeld": 16,
+      "daysHeld": 19,
       "pnl": "",
-      "lastPrice": 1341.1,
-      "lastDate": "2026-08-28",
+      "lastPrice": 1367.4,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-12",
@@ -7097,7 +9119,13 @@
       "lastDate": "2026-08-12",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-12",
@@ -7111,14 +9139,20 @@
       "exitDate": "",
       "exitPrice": "",
       "maxProfit": 8.48,
-      "maxDrawdown": 2.22,
-      "daysHeld": 16,
+      "maxDrawdown": 4.29,
+      "daysHeld": 19,
       "pnl": "",
-      "lastPrice": 6071.0,
-      "lastDate": "2026-08-28",
+      "lastPrice": 6233.5,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-12",
@@ -7139,7 +9173,13 @@
       "lastDate": "2026-08-19",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-12",
@@ -7149,18 +9189,24 @@
       "entry": 257.2099914550781,
       "stoploss": 280.55,
       "target": 239.02,
-      "status": "Open",
-      "exitDate": "",
-      "exitPrice": "",
+      "status": "SL Hit",
+      "exitDate": "2026-08-31",
+      "exitPrice": 280.55,
       "maxProfit": 4.73,
-      "maxDrawdown": 8.69,
-      "daysHeld": 16,
-      "pnl": "",
-      "lastPrice": 277.59,
-      "lastDate": "2026-08-28",
-      "reentryDate": "",
-      "reentrySide": "",
-      "reentryPrice": ""
+      "maxDrawdown": 9.87,
+      "daysHeld": 19,
+      "pnl": -9.07,
+      "lastPrice": 280.55,
+      "lastDate": "2026-08-31",
+      "reentryDate": "2026-08-31",
+      "reentrySide": "Red",
+      "reentryEntry": 268.83,
+      "reentrySL": 293.8949,
+      "reentryTP": 293.2244,
+      "reentryStatus": "Open",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-12",
@@ -7175,13 +9221,19 @@
       "exitPrice": "",
       "maxProfit": 4.9,
       "maxDrawdown": 5.44,
-      "daysHeld": 16,
+      "daysHeld": 19,
       "pnl": "",
-      "lastPrice": 257.55,
-      "lastDate": "2026-08-28",
+      "lastPrice": 267.9,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-12",
@@ -7202,7 +9254,13 @@
       "lastDate": "2026-08-17",
       "reentryDate": "2026-08-18",
       "reentrySide": "Red",
-      "reentryPrice": 613.3
+      "reentryEntry": 613.3,
+      "reentrySL": 658.1076,
+      "reentryTP": 646.7281,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-19",
+      "reentryExitPrice": 646.7281,
+      "reentryPnl": -5.45
     },
     {
       "date": "2026-08-13",
@@ -7223,7 +9281,13 @@
       "lastDate": "2026-08-28",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-13",
@@ -7244,7 +9308,13 @@
       "lastDate": "2026-08-26",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-13",
@@ -7265,7 +9335,13 @@
       "lastDate": "2026-08-24",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-14",
@@ -7284,9 +9360,15 @@
       "pnl": -5.68,
       "lastPrice": 240.96,
       "lastDate": "2026-08-25",
-      "reentryDate": "2026-08-26",
+      "reentryDate": "2026-08-25",
       "reentrySide": "Red",
-      "reentryPrice": 235.89
+      "reentryEntry": 238.01,
+      "reentrySL": 253.7981,
+      "reentryTP": 251.539,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-26",
+      "reentryExitPrice": 251.539,
+      "reentryPnl": -5.68
     },
     {
       "date": "2026-08-14",
@@ -7301,13 +9383,19 @@
       "exitPrice": "",
       "maxProfit": 4.65,
       "maxDrawdown": 5.26,
-      "daysHeld": 14,
+      "daysHeld": 17,
       "pnl": "",
-      "lastPrice": 175.57,
-      "lastDate": "2026-08-28",
+      "lastPrice": 170.6,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-17",
@@ -7322,13 +9410,19 @@
       "exitPrice": "",
       "maxProfit": 13.87,
       "maxDrawdown": 1.3,
-      "daysHeld": 11,
+      "daysHeld": 14,
       "pnl": "",
-      "lastPrice": 377.85,
-      "lastDate": "2026-08-28",
+      "lastPrice": 374.75,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-17",
@@ -7349,7 +9443,13 @@
       "lastDate": "2026-08-21",
       "reentryDate": "2026-08-28",
       "reentrySide": "Red",
-      "reentryPrice": 228.3
+      "reentryEntry": 228.3,
+      "reentrySL": 251.0449,
+      "reentryTP": 237.3603,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-31",
+      "reentryExitPrice": 237.3603,
+      "reentryPnl": -3.97
     },
     {
       "date": "2026-08-18",
@@ -7370,7 +9470,13 @@
       "lastDate": "2026-08-19",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-18",
@@ -7385,13 +9491,19 @@
       "exitPrice": "",
       "maxProfit": 8.8,
       "maxDrawdown": 3.09,
-      "daysHeld": 10,
+      "daysHeld": 13,
       "pnl": "",
-      "lastPrice": 1745.1,
-      "lastDate": "2026-08-28",
+      "lastPrice": 1830.4,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-18",
@@ -7412,7 +9524,13 @@
       "lastDate": "2026-08-21",
       "reentryDate": "2026-08-27",
       "reentrySide": "Red",
-      "reentryPrice": 1038.1
+      "reentryEntry": 1038.1,
+      "reentrySL": 1070.9004,
+      "reentryTP": 1082.0582,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-28",
+      "reentryExitPrice": 1082.0582,
+      "reentryPnl": -4.23
     },
     {
       "date": "2026-08-18",
@@ -7427,13 +9545,19 @@
       "exitPrice": "",
       "maxProfit": 6.63,
       "maxDrawdown": 2.55,
-      "daysHeld": 10,
+      "daysHeld": 13,
       "pnl": "",
-      "lastPrice": 196.0,
-      "lastDate": "2026-08-28",
+      "lastPrice": 198.41,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-19",
@@ -7448,13 +9572,19 @@
       "exitPrice": "",
       "maxProfit": 17.14,
       "maxDrawdown": 2.83,
-      "daysHeld": 9,
+      "daysHeld": 12,
       "pnl": "",
-      "lastPrice": 73.49,
-      "lastDate": "2026-08-28",
+      "lastPrice": 70.6,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-19",
@@ -7467,15 +9597,21 @@
       "status": "Open",
       "exitDate": "",
       "exitPrice": "",
-      "maxProfit": 5.08,
+      "maxProfit": 5.39,
       "maxDrawdown": 1.77,
-      "daysHeld": 9,
+      "daysHeld": 12,
       "pnl": "",
-      "lastPrice": 11436.0,
-      "lastDate": "2026-08-28",
+      "lastPrice": 11966.0,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-19",
@@ -7496,7 +9632,13 @@
       "lastDate": "2026-08-25",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-19",
@@ -7517,7 +9659,13 @@
       "lastDate": "2026-08-26",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-19",
@@ -7538,7 +9686,13 @@
       "lastDate": "2026-08-27",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-19",
@@ -7551,15 +9705,21 @@
       "status": "Open",
       "exitDate": "",
       "exitPrice": "",
-      "maxProfit": 4.65,
+      "maxProfit": 5.97,
       "maxDrawdown": 0.39,
-      "daysHeld": 9,
+      "daysHeld": 12,
       "pnl": "",
-      "lastPrice": 2568.0,
-      "lastDate": "2026-08-28",
+      "lastPrice": 2534.6001,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-20",
@@ -7574,13 +9734,19 @@
       "exitPrice": "",
       "maxProfit": 8.88,
       "maxDrawdown": 4.18,
-      "daysHeld": 8,
+      "daysHeld": 11,
       "pnl": "",
-      "lastPrice": 107.37,
-      "lastDate": "2026-08-28",
+      "lastPrice": 103.77,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-20",
@@ -7601,7 +9767,13 @@
       "lastDate": "2026-08-24",
       "reentryDate": "2026-08-25",
       "reentrySide": "Red",
-      "reentryPrice": 1459.5
+      "reentryEntry": 1459.5,
+      "reentrySL": 1622.7881,
+      "reentryTP": 1535.8152,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-26",
+      "reentryExitPrice": 1535.8152,
+      "reentryPnl": -5.23
     },
     {
       "date": "2026-08-20",
@@ -7622,7 +9794,13 @@
       "lastDate": "2026-08-24",
       "reentryDate": "2026-08-25",
       "reentrySide": "Red",
-      "reentryPrice": 48.78
+      "reentryEntry": 48.78,
+      "reentrySL": 52.2992,
+      "reentryTP": 52.4791,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-26",
+      "reentryExitPrice": 52.4791,
+      "reentryPnl": -7.58
     },
     {
       "date": "2026-08-20",
@@ -7632,18 +9810,24 @@
       "entry": 29.889999389648438,
       "stoploss": 32.41,
       "target": 26.98,
-      "status": "Open",
-      "exitDate": "",
-      "exitPrice": "",
-      "maxProfit": 9.33,
+      "status": "TP Hit",
+      "exitDate": "2026-08-31",
+      "exitPrice": 26.98,
+      "maxProfit": 11.34,
       "maxDrawdown": 3.38,
-      "daysHeld": 8,
-      "pnl": "",
-      "lastPrice": 27.47,
-      "lastDate": "2026-08-28",
+      "daysHeld": 11,
+      "pnl": 9.74,
+      "lastPrice": 26.98,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-20",
@@ -7658,13 +9842,19 @@
       "exitPrice": "",
       "maxProfit": 7.26,
       "maxDrawdown": 0.65,
-      "daysHeld": 8,
+      "daysHeld": 11,
       "pnl": "",
-      "lastPrice": 132.59,
-      "lastDate": "2026-08-28",
+      "lastPrice": 128.38,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-20",
@@ -7679,13 +9869,19 @@
       "exitPrice": "",
       "maxProfit": 2.51,
       "maxDrawdown": 2.36,
-      "daysHeld": 8,
+      "daysHeld": 11,
       "pnl": "",
-      "lastPrice": 684.55,
-      "lastDate": "2026-08-28",
+      "lastPrice": 688.65,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-21",
@@ -7706,7 +9902,13 @@
       "lastDate": "2026-08-27",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-21",
@@ -7725,9 +9927,15 @@
       "pnl": -8.07,
       "lastPrice": 184.46,
       "lastDate": "2026-08-26",
-      "reentryDate": "",
-      "reentrySide": "",
-      "reentryPrice": ""
+      "reentryDate": "2026-08-31",
+      "reentrySide": "Red",
+      "reentryEntry": 193.69,
+      "reentrySL": 206.8915,
+      "reentryTP": 209.3155,
+      "reentryStatus": "Open",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-24",
@@ -7748,7 +9956,13 @@
       "lastDate": "2026-08-27",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-24",
@@ -7767,9 +9981,15 @@
       "pnl": -8.07,
       "lastPrice": 184.46,
       "lastDate": "2026-08-26",
-      "reentryDate": "",
-      "reentrySide": "",
-      "reentryPrice": ""
+      "reentryDate": "2026-08-31",
+      "reentrySide": "Red",
+      "reentryEntry": 193.69,
+      "reentrySL": 206.8915,
+      "reentryTP": 209.3155,
+      "reentryStatus": "Open",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-25",
@@ -7782,15 +10002,21 @@
       "status": "Open",
       "exitDate": "",
       "exitPrice": "",
-      "maxProfit": 7.94,
+      "maxProfit": 8.0,
       "maxDrawdown": 2.1,
-      "daysHeld": 3,
+      "daysHeld": 6,
       "pnl": "",
-      "lastPrice": 537.85,
-      "lastDate": "2026-08-28",
+      "lastPrice": 535.05,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-25",
@@ -7811,7 +10037,13 @@
       "lastDate": "2026-08-28",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-25",
@@ -7832,7 +10064,13 @@
       "lastDate": "2026-08-27",
       "reentryDate": "2026-08-28",
       "reentrySide": "Red",
-      "reentryPrice": 40.32
+      "reentryEntry": 40.32,
+      "reentrySL": 44.6938,
+      "reentryTP": 43.6944,
+      "reentryStatus": "TP Hit",
+      "reentryExitDate": "2026-08-31",
+      "reentryExitPrice": 43.6944,
+      "reentryPnl": -8.37
     },
     {
       "date": "2026-08-26",
@@ -7847,13 +10085,19 @@
       "exitPrice": "",
       "maxProfit": 3.24,
       "maxDrawdown": 1.56,
-      "daysHeld": 2,
+      "daysHeld": 5,
       "pnl": "",
-      "lastPrice": 633.15,
-      "lastDate": "2026-08-28",
+      "lastPrice": 629.0,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-26",
@@ -7874,7 +10118,13 @@
       "lastDate": "2026-08-27",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-26",
@@ -7888,14 +10138,20 @@
       "exitDate": "",
       "exitPrice": "",
       "maxProfit": 3.25,
-      "maxDrawdown": 1.16,
-      "daysHeld": 2,
+      "maxDrawdown": 4.02,
+      "daysHeld": 5,
       "pnl": "",
-      "lastPrice": 4462.2002,
-      "lastDate": "2026-08-28",
+      "lastPrice": 4314.3999,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-26",
@@ -7909,14 +10165,20 @@
       "exitDate": "",
       "exitPrice": "",
       "maxProfit": 4.68,
-      "maxDrawdown": 0.65,
-      "daysHeld": 2,
+      "maxDrawdown": 0.66,
+      "daysHeld": 5,
       "pnl": "",
-      "lastPrice": 222.94,
-      "lastDate": "2026-08-28",
+      "lastPrice": 226.71,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-27",
@@ -7926,18 +10188,24 @@
       "entry": 236.89999389648438,
       "stoploss": 275.8,
       "target": 213.73,
-      "status": "Open",
-      "exitDate": "",
-      "exitPrice": "",
-      "maxProfit": 6.29,
+      "status": "TP Hit",
+      "exitDate": "2026-08-31",
+      "exitPrice": 213.73,
+      "maxProfit": 9.94,
       "maxDrawdown": 2.43,
-      "daysHeld": 1,
-      "pnl": "",
-      "lastPrice": 227.8,
-      "lastDate": "2026-08-28",
+      "daysHeld": 4,
+      "pnl": 9.78,
+      "lastPrice": 213.73,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-27",
@@ -7952,13 +10220,19 @@
       "exitPrice": "",
       "maxProfit": 2.1,
       "maxDrawdown": 5.22,
-      "daysHeld": 1,
+      "daysHeld": 4,
       "pnl": "",
-      "lastPrice": 1701.1,
-      "lastDate": "2026-08-28",
+      "lastPrice": 1670.6,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-27",
@@ -7971,15 +10245,21 @@
       "status": "Open",
       "exitDate": "",
       "exitPrice": "",
-      "maxProfit": 5.66,
+      "maxProfit": 6.05,
       "maxDrawdown": 0.58,
-      "daysHeld": 1,
+      "daysHeld": 4,
       "pnl": "",
-      "lastPrice": 39.27,
-      "lastDate": "2026-08-28",
+      "lastPrice": 39.7,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-27",
@@ -7992,15 +10272,21 @@
       "status": "Open",
       "exitDate": "",
       "exitPrice": "",
-      "maxProfit": 4.53,
+      "maxProfit": 9.07,
       "maxDrawdown": 2.5,
-      "daysHeld": 1,
+      "daysHeld": 4,
       "pnl": "",
-      "lastPrice": 2086.1001,
-      "lastDate": "2026-08-28",
+      "lastPrice": 1979.2,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-28",
@@ -8013,15 +10299,21 @@
       "status": "Open",
       "exitDate": "",
       "exitPrice": "",
-      "maxProfit": 2.04,
-      "maxDrawdown": 1.87,
-      "daysHeld": 0,
+      "maxProfit": 2.13,
+      "maxDrawdown": 2.0,
+      "daysHeld": 3,
       "pnl": "",
-      "lastPrice": 269.9,
-      "lastDate": "2026-08-28",
+      "lastPrice": 268.75,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-28",
@@ -8035,14 +10327,20 @@
       "exitDate": "",
       "exitPrice": "",
       "maxProfit": 2.09,
-      "maxDrawdown": 0.24,
-      "daysHeld": 0,
+      "maxDrawdown": 1.04,
+      "daysHeld": 3,
       "pnl": "",
-      "lastPrice": 17803.0,
-      "lastDate": "2026-08-28",
+      "lastPrice": 17702.0,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-28",
@@ -8056,14 +10354,20 @@
       "exitDate": "",
       "exitPrice": "",
       "maxProfit": 2.63,
-      "maxDrawdown": 0.73,
-      "daysHeld": 0,
+      "maxDrawdown": 3.4,
+      "daysHeld": 3,
       "pnl": "",
-      "lastPrice": 69.23,
-      "lastDate": "2026-08-28",
+      "lastPrice": 72.16,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-28",
@@ -8077,14 +10381,20 @@
       "exitDate": "",
       "exitPrice": "",
       "maxProfit": 1.13,
-      "maxDrawdown": 1.97,
-      "daysHeld": 0,
+      "maxDrawdown": 2.59,
+      "daysHeld": 3,
       "pnl": "",
-      "lastPrice": 598.0,
-      "lastDate": "2026-08-28",
+      "lastPrice": 583.9,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-28",
@@ -8097,15 +10407,21 @@
       "status": "Open",
       "exitDate": "",
       "exitPrice": "",
-      "maxProfit": 1.73,
-      "maxDrawdown": 0.8,
-      "daysHeld": 0,
+      "maxProfit": 1.88,
+      "maxDrawdown": 2.53,
+      "daysHeld": 3,
       "pnl": "",
-      "lastPrice": 1104.6,
-      "lastDate": "2026-08-28",
+      "lastPrice": 1109.95,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-28",
@@ -8118,15 +10434,21 @@
       "status": "Open",
       "exitDate": "",
       "exitPrice": "",
-      "maxProfit": 5.15,
+      "maxProfit": 5.51,
       "maxDrawdown": 0.28,
-      "daysHeld": 0,
+      "daysHeld": 3,
       "pnl": "",
-      "lastPrice": 304.6,
-      "lastDate": "2026-08-28",
+      "lastPrice": 292.05,
+      "lastDate": "2026-08-31",
       "reentryDate": "",
       "reentrySide": "",
-      "reentryPrice": ""
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     }
   ]
 }
