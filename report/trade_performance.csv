@@ -1,3 +1,5 @@
 signal_date,symbol,side,cbt,entry,stoploss,target,status,exit_date,exit_price,max_profit_pct,max_drawdown_pct,days_held,pnl_pct,last_price,last_date
+2026-08-31,HQY,buy,96.54,95.55,85.06,102.8,Open,,,3.24,2.61,1,,97.0,2026-09-01
+2026-08-31,LEGN,buy,20.78,19.8,18.56,22.2,Open,,,8.81,0.47,1,,21.13,2026-09-01
 2026-09-01,CYTK,buy,71.4,70.14,66.43,76.5,Open,,,3.28,0.41,0,,71.4,2026-09-01
 2026-09-01,VCEL,buy,40.5,39.87,37.76,45.19,Open,,,3.93,0.54,0,,40.5,2026-09-01
