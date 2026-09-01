@@ -1,13 +1,13 @@
 {
-  "total": 383,
-  "tp_hits": 177,
-  "sl_hits": 157,
-  "open": 49,
+  "total": 387,
+  "tp_hits": 178,
+  "sl_hits": 158,
+  "open": 51,
   "win_rate": 53.0,
   "avg_pnl": 1.41,
-  "avg_win": 8.64,
-  "avg_loss": -6.74,
-  "avg_max_profit": 7.54,
-  "avg_max_drawdown": 5.5,
-  "generated_at": "2026-08-29T19:53:46.538966Z"
+  "avg_win": 8.63,
+  "avg_loss": -6.72,
+  "avg_max_profit": 7.55,
+  "avg_max_drawdown": 5.51,
+  "generated_at": "2026-09-01T00:43:34.519248Z"
 }
