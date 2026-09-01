@@ -245,7 +245,7 @@ function renderTable() {
         <td class="${pnlClass(t.reentryPnl)}">${fmt(t.reentryPnl)}%</td>
       </tr>`;
     }).join('');
-    document.getElementById('foot').textContent = `Showing ${rows.length} reentry trades (sorted by reentry date ${reSortAsc?'asc':'desc'}). Reentry: enter at close, SL = candle ${'low'}−ATR (Buy) / ${'high'}+ATR (Sell), TP = entry × (1 + |SL loss%|/100).`;
+    document.getElementById('foot').textContent = `Showing ${rows.length} reentry trades (sorted by reentry date ${reSortAsc?'asc':'desc'}). Reentry: enter at close, SL = candle low − ATR (Buy) / high + ATR (Sell), TP = entry × (1 + |SL loss%|/100) for Buy / entry × (1 − |SL loss%|/100) for Sell.`;
     return;
   }
 

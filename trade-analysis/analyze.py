@@ -247,12 +247,13 @@ def add_reentry(result, ohlc, sl_hit_date, side, entry, loss_pct):
     day = window.iloc[found_idx]
     re_entry = float(day["Close"])
     atr = float(day["ATR"]) if not pd.isna(day["ATR"]) else 0.0
+    loss_pct_abs = abs(float(loss_pct)) if loss_pct and loss_pct != "" else 0.0
     if side == "buy":
         re_sl = float(day["Low"]) - atr
+        re_tp = re_entry * (1 + loss_pct_abs / 100.0)
     else:
         re_sl = float(day["High"]) + atr
-    loss_pct_abs = abs(float(loss_pct)) if loss_pct and loss_pct != "" else 0.0
-    re_tp = re_entry * (1 + loss_pct_abs / 100.0)
+        re_tp = re_entry * (1 - loss_pct_abs / 100.0)
 
     result["reentry_date"] = str(day["Date"])
     result["reentry_side"] = direction
