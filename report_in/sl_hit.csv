@@ -1,1 +1,2 @@
 signal_date,symbol,side,cbt,entry,stoploss,target,status,exit_date,exit_price,max_profit_pct,max_drawdown_pct,days_held,pnl_pct,last_price,last_date,reentry_date,reentry_side,reentry_entry,reentry_sl,reentry_tp
+2026-08-25,VOGL,sell,38.95,39.54999923706055,42.86,37.96,SL Hit,2026-08-27,42.86,2.0,9.48,2,-8.37,42.86,2026-08-27,2026-08-28,Red,40.32,44.6938,36.9456
