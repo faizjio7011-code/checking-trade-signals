@@ -1,4 +1,5 @@
 signal_date,symbol,side,cbt,entry,stoploss,target,status,exit_date,exit_price,max_profit_pct,max_drawdown_pct,days_held,pnl_pct,last_price,last_date,reentry_date,reentry_side,reentry_entry,reentry_sl,reentry_tp
+2026-07-24,FINPIPE,buy,163.67,159.5,153.68,191.5,SL Hit,2026-09-02,153.68,7.84,4.38,40,-3.65,153.68,2026-09-02,2026-09-02,Green,157.84,148.6724,163.5994
 2026-07-27,RELTD,buy,174.03,173.4,159.66,183.32,SL Hit,2026-08-17,159.66,3.43,10.28,21,-7.92,159.66,2026-08-17,2026-08-17,Green,159.87,148.1408,172.5379
 2026-07-29,SOUTHWEST,buy,229.76,226.72,213.7,248.82,SL Hit,2026-08-25,213.7,9.6,10.86,27,-5.74,213.7,2026-08-25,2026-08-26,Green,211.66,194.1426,223.8151
 2026-07-30,ARTEMISMED,sell,302.15,302.95001220703125,318.07,271.66,SL Hit,2026-08-05,318.07,2.36,7.25,6,-4.99,318.07,2026-08-05,2026-08-06,Red,311.7,335.3767,296.1433
