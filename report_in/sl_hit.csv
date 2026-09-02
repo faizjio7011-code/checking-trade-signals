@@ -1,4 +1,5 @@
 signal_date,symbol,side,cbt,entry,stoploss,target,status,exit_date,exit_price,max_profit_pct,max_drawdown_pct,days_held,pnl_pct,last_price,last_date,reentry_date,reentry_side,reentry_entry,reentry_sl,reentry_tp
+2026-07-14,HAPPSTMNDS,sell,389.04,405.63059612483016,431.67,350.6,SL Hit,2026-08-17,431.67,12.78,6.6,34,-6.42,431.67,2026-08-17,2026-08-18,Red,419.95,443.4314,392.9914
 2026-07-15,JAINREC,buy,341.4,325.0,303.77,363.08,SL Hit,2026-08-10,303.77,11.69,7.23,26,-6.53,303.77,2026-08-10,2026-08-12,Green,303.0,282.4867,322.7929
 2026-07-15,NPST,buy,1599.6,1569.9,1453.05,1727.07,SL Hit,2026-08-12,1453.05,6.12,9.78,28,-7.44,1453.05,2026-08-12,2026-08-12,Green,1537.2,1338.6989,1651.616
 2026-07-15,SHAKTIPUMP,buy,555.43,555.28,529.61,581.11,SL Hit,2026-07-27,529.61,1.57,5.62,12,-4.62,529.61,2026-07-27,2026-07-29,Green,523.75,501.8716,547.9624
