@@ -1,2 +1,5 @@
 signal_date,symbol,side,entry,stoploss,target,pnl_pct,reentry_date,reentry_side,reentry_entry,reentry_sl,reentry_tp,reentry_status,reentry_exit_date,reentry_exit_price,reentry_pnl_pct
+2026-08-07,MTN,buy,147.13,140.54,156.66,-4.48,2026-08-13,Green,145.42,135.6234,151.9334,TP Hit,2026-08-19,151.9334,4.48
+2026-08-07,WFRD,sell,88.16000366210938,94.94,84.02,-7.69,2026-08-17,Red,93.08,99.2562,85.9216,Open,,,
+2026-08-07,DOX,sell,59.290000915527344,62.08,56.18,-4.71,2026-08-27,Red,62.7,66.0354,59.7495,Open,,,
 2026-08-21,LNG,sell,279.9599914550781,289.07,255.5,-3.25,2026-09-01,Red,294.13,305.8765,284.5589,Open,,,
