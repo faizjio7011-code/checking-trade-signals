@@ -1,4 +1,5 @@
 signal_date,symbol,side,cbt,entry,stoploss,target,status,exit_date,exit_price,max_profit_pct,max_drawdown_pct,days_held,pnl_pct,last_price,last_date
+2026-07-28,MEIL,sell,295.45,300.0,326.05,287.9,TP Hit,2026-07-30,287.9,8.32,1.67,2,4.03,287.9,2026-07-30
 2026-07-29,GREENPANEL,buy,191.04,190.71,181.94,203.86,TP Hit,2026-08-05,203.86,7.46,0.53,7,6.9,203.86,2026-08-05
 2026-07-29,MPHASIS,sell,2361.3,2455.0,2557.2,2267.48,TP Hit,2026-07-31,2267.48,9.48,0.69,2,7.64,2267.48,2026-07-31
 2026-07-29,SOUTHWEST,buy,229.76,226.72,213.7,248.82,SL Hit,2026-08-25,213.7,9.6,10.86,27,-5.74,213.7,2026-08-25
