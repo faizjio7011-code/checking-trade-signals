@@ -1,5 +1,6 @@
 signal_date,symbol,side,entry,stoploss,target,pnl_pct,reentry_date,reentry_side,reentry_entry,reentry_sl,reentry_tp,reentry_status,reentry_exit_date,reentry_exit_price,reentry_pnl_pct
 2026-07-27,NUE,sell,249.1199951171875,258.21,222.09,-3.65,2026-07-29,Red,256.02,278.0559,246.6782,SL Hit,2026-08-05,278.0559,-8.61
+2026-07-23,FROG,buy,80.33,72.69,88.88,-9.51,2026-07-30,Green,78.42,67.3196,85.8783,TP Hit,2026-08-04,85.8783,9.51
 2026-07-24,OMCL,buy,40.34,37.24,44.73,-7.68,2026-07-30,Green,37.11,32.1675,39.9618,Open,,,
 2026-07-27,HWKN,buy,139.54,128.91,144.99,-7.62,2026-07-31,Green,128.03,112.5546,137.7832,Open,,,
 2026-07-24,PRVA,buy,25.26,23.87,26.89,-5.5,2026-07-31,Green,23.67,22.6313,24.9725,SL Hit,2026-08-06,22.6313,-4.39

@@ -1,4 +1,5 @@
 signal_date,symbol,side,cbt,entry,stoploss,target,status,exit_date,exit_price,max_profit_pct,max_drawdown_pct,days_held,pnl_pct,last_price,last_date,reentry_date,reentry_side,reentry_entry,reentry_sl,reentry_tp
+2026-07-23,FROG,buy,81.25,80.33,72.69,88.88,SL Hit,2026-07-28,72.69,3.61,10.2,5,-9.51,72.69,2026-07-28,2026-07-30,Green,78.42,67.3196,85.8783
 2026-07-24,DECK,buy,96.04,94.01,87.8,110.28,SL Hit,2026-08-27,87.8,11.56,8.4,34,-6.61,87.8,2026-08-27,,,,,
 2026-07-24,OMCL,buy,41.0,40.34,37.24,44.73,SL Hit,2026-07-30,37.24,9.74,13.24,6,-7.68,37.24,2026-07-30,2026-07-30,Green,37.11,32.1675,39.9618
 2026-07-24,PRVA,buy,25.5,25.26,23.87,26.89,SL Hit,2026-07-30,23.87,2.34,6.85,6,-5.5,23.87,2026-07-30,2026-07-31,Green,23.67,22.6313,24.9725
