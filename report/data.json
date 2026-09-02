@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T23:12:07.495276Z",
+  "generatedAt": "2026-09-02T23:28:39.130503Z",
   "trades": [
     {
       "date": "2026-06-02",
@@ -7200,11 +7200,11 @@
       "pnl": -8.94,
       "lastPrice": 110.1,
       "lastDate": "2026-08-27",
-      "reentryDate": "2026-08-28",
+      "reentryDate": "2026-09-01",
       "reentrySide": "Green",
-      "reentryEntry": 113.58,
-      "reentrySL": 103.283,
-      "reentryTP": 123.7347,
+      "reentryEntry": 109.6,
+      "reentrySL": 100.3147,
+      "reentryTP": 119.3988,
       "reentryStatus": "Open",
       "reentryExitDate": "",
       "reentryExitPrice": "",
@@ -7986,7 +7986,7 @@
       "reentryDate": "2026-09-02",
       "reentrySide": "Green",
       "reentryEntry": 82.91,
-      "reentrySL": 78.8613,
+      "reentrySL": 78.7637,
       "reentryTP": 87.6611,
       "reentryStatus": "Open",
       "reentryExitDate": "",
