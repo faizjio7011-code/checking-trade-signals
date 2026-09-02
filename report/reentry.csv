@@ -1,2 +1,2 @@
 signal_date,symbol,side,entry,stoploss,target,pnl_pct,reentry_date,reentry_side,reentry_entry,reentry_sl,reentry_tp,reentry_status,reentry_exit_date,reentry_exit_price,reentry_pnl_pct
-2026-08-21,LNG,sell,279.9599914550781,289.07,255.5,-3.25,2026-09-01,Red,294.13,305.8765,284.5589,Open,,,
+2026-08-21,LNG,sell,279.9599914550781,289.07,255.5,-3.25,2026-09-01,Red,294.13,306.1799,284.5589,Open,,,
