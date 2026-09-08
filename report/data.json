@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-08T21:43:10.394450Z",
+  "generatedAt": "2026-09-08T22:07:30.997754Z",
   "trades": [
     {
       "date": "2026-06-02",
@@ -3112,7 +3112,7 @@
       "side": "sell",
       "cbt": "285.35",
       "entry": 291.558221564965,
-      "stoploss": 303.45,
+      "stoploss": 303.44,
       "target": 271.56,
       "status": "TP Hit",
       "exitDate": "2026-07-08",
@@ -3139,7 +3139,7 @@
       "side": "sell",
       "cbt": "582.9",
       "entry": 607.9000244140625,
-      "stoploss": 650.8,
+      "stoploss": 650.79,
       "target": 583.88,
       "status": "TP Hit",
       "exitDate": "2026-07-02",
