@@ -9,11 +9,11 @@
   "avg_loss": -7.59,
   "avg_max_profit": 8.16,
   "avg_max_drawdown": 6.18,
-  "reentry_total": 143,
-  "reentry_closed": 129,
-  "reentry_wins": 73,
-  "reentry_win_rate": 56.6,
-  "reentry_avg_pnl": 0.93,
-  "reentry_pending": 14,
-  "generated_at": "2026-09-15T23:35:08.727721Z"
+  "reentry_total": 146,
+  "reentry_closed": 130,
+  "reentry_wins": 74,
+  "reentry_win_rate": 56.9,
+  "reentry_avg_pnl": 0.94,
+  "reentry_pending": 16,
+  "generated_at": "2026-09-16T15:08:06.051841Z"
 }
