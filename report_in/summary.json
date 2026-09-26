@@ -1,0 +1,19 @@
+{
+  "total": 0,
+  "tp_hits": 0,
+  "sl_hits": 0,
+  "open": 0,
+  "win_rate": 0,
+  "avg_pnl": 0.0,
+  "avg_win": 0.0,
+  "avg_loss": 0.0,
+  "avg_max_profit": 0.0,
+  "avg_max_drawdown": 0.0,
+  "reentry_total": 0,
+  "reentry_closed": 0,
+  "reentry_wins": 0,
+  "reentry_win_rate": 0,
+  "reentry_avg_pnl": 0.0,
+  "reentry_pending": 0,
+  "generated_at": "2026-09-26T21:30:45.830417Z"
+}
