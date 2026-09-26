@@ -1,1 +1,4 @@
 signal_date,symbol,side,cbt,entry,stoploss,target,status,exit_date,exit_price,max_profit_pct,max_drawdown_pct,days_held,pnl_pct,last_price,last_date
+2026-09-25,MBEL,sell,257.7,265.8999938964844,280.23,255.86,TP Hit,2026-09-25,255.86,3.95,0.51,0,3.78,255.86,2026-09-25
+2026-09-25,NGLFINE,sell,2906.1,2975.5,3130.53,2628.89,Open,,,4.41,0.15,0,,2906.1001,2026-09-25
+2026-09-25,RBA,buy,92.51,90.65,85.81,104.25,Open,,,3.25,1.14,0,,92.51,2026-09-25
