@@ -1,4 +1,6 @@
 signal_date,symbol,side,cbt,entry,stoploss,target,status,exit_date,exit_price,max_profit_pct,max_drawdown_pct,days_held,pnl_pct,last_price,last_date
+2026-09-18,MRVI,sell,6.97,7.199999809265137,7.94,6.68,Open,,,5.21,7.78,7,,7.6,2026-09-25
+2026-09-18,RARE,sell,14.51,14.789999961853027,16.54,13.19,Open,,,4.87,8.99,7,,14.5,2026-09-25
 2026-09-21,ADEA,buy,25.53,25.04,23.27,26.7,Open,,,3.55,2.56,4,,25.48,2026-09-25
 2026-09-21,CXM,buy,5.39,5.34,5.0,5.7,Open,,,4.49,5.24,4,,5.07,2026-09-25
 2026-09-21,EAT,buy,200.3,201.61,183.05,219.02,Open,,,5.89,2.14,4,,207.2,2026-09-25
