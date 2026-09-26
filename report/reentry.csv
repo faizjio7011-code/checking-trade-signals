@@ -1,3 +1,4 @@
 signal_date,symbol,side,entry,stoploss,target,pnl_pct,reentry_date,reentry_side,reentry_entry,reentry_sl,reentry_tp,reentry_status,reentry_exit_date,reentry_exit_price,reentry_pnl_pct
 2026-09-17,FIVN,sell,34.75,37.05,31.16,-6.62,2026-09-23,Red,37.68,41.9711,35.1861,Open,,,
+2026-09-16,QCOM,sell,189.1699981689453,198.97,173.0,-5.18,2026-09-23,Red,197.24,207.9359,187.0219,Open,,,
 2026-09-17,ALSN,buy,121.01,113.43,124.27,-6.26,2026-09-25,Green,113.86,108.4692,120.9921,Open,,,
