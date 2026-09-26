@@ -1,8 +1,8 @@
 {
-  "total": 8,
+  "total": 18,
   "tp_hits": 0,
   "sl_hits": 0,
-  "open": 8,
+  "open": 18,
   "win_rate": 0,
   "avg_pnl": 0.0,
   "avg_win": 0.0,
@@ -15,5 +15,5 @@
   "reentry_win_rate": 0,
   "reentry_avg_pnl": 0.0,
   "reentry_pending": 0,
-  "generated_at": "2026-09-26T22:09:48.481467Z"
+  "generated_at": "2026-09-26T22:21:07.780052Z"
 }
