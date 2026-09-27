@@ -1,19 +1,19 @@
 {
   "total": 192,
-  "tp_hits": 82,
+  "tp_hits": 83,
   "sl_hits": 68,
   "open": 41,
-  "win_rate": 54.7,
-  "avg_pnl": 1.67,
-  "avg_win": 8.62,
+  "win_rate": 55.0,
+  "avg_pnl": 1.69,
+  "avg_win": 8.58,
   "avg_loss": -6.71,
-  "avg_max_profit": 8.01,
-  "avg_max_drawdown": 5.51,
+  "avg_max_profit": 8.0,
+  "avg_max_drawdown": 5.48,
   "reentry_total": 63,
   "reentry_closed": 54,
   "reentry_wins": 28,
   "reentry_win_rate": 51.9,
   "reentry_avg_pnl": -0.62,
   "reentry_pending": 9,
-  "generated_at": "2026-09-27T21:45:28.340216Z"
+  "generated_at": "2026-09-27T22:05:20.082917Z"
 }
