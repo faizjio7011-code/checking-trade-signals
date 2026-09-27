@@ -1,4 +1,5 @@
 signal_date,symbol,side,cbt,entry,stoploss,target,status,exit_date,exit_price,max_profit_pct,max_drawdown_pct,days_held,pnl_pct,last_price,last_date,reentry_date,reentry_side,reentry_entry,reentry_sl,reentry_tp
+2026-07-09,RBA,buy,74.47,73.0,69.09,78.74,SL Hit,2026-07-16,69.09,3.05,6.1,7,-5.36,69.09,2026-07-16,2026-07-20,Green,66.75,62.2828,70.3252
 2026-07-13,CONFIPET,sell,75.26,75.77255972328146,82.04,70.42,SL Hit,2026-07-27,82.04,5.84,9.54,14,-8.27,82.04,2026-07-27,2026-07-28,Red,77.49,85.9793,71.0805
 2026-07-14,NOVARTIND,sell,1617.6,1668.0,1796.58,1369.24,SL Hit,2026-09-08,1796.58,15.95,11.27,56,-7.71,1796.58,2026-09-08,2026-09-15,Red,2188.0,2491.7858,2019.3351
 2026-07-15,JAINREC,buy,341.4,325.0,303.77,363.08,SL Hit,2026-08-10,303.77,11.69,7.23,26,-6.53,303.77,2026-08-10,2026-08-12,Green,303.0,282.4867,322.7929

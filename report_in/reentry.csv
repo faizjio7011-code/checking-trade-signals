@@ -1,4 +1,5 @@
 signal_date,symbol,side,entry,stoploss,target,pnl_pct,reentry_date,reentry_side,reentry_entry,reentry_sl,reentry_tp,reentry_status,reentry_exit_date,reentry_exit_price,reentry_pnl_pct
+2026-07-09,RBA,buy,73.0,69.09,78.74,-5.36,2026-07-20,Green,66.75,62.2828,70.3252,TP Hit,2026-07-27,70.3252,5.36
 2026-07-16,VISHNU,sell,624.7000981519309,654.04,594.18,-4.7,2026-07-21,Red,640.45,686.5822,610.3704,TP Hit,2026-07-31,610.3704,4.7
 2026-07-20,LORDSCHLO,sell,144.57000732421875,153.87,131.04,-6.43,2026-07-22,Red,144.12,159.938,134.849,SL Hit,2026-07-27,159.938,-10.98
 2026-07-17,GRAPHITE,sell,650.8550378879044,681.93,585.59,-4.77,2026-07-27,Red,662.65,699.6508,631.0119,SL Hit,2026-08-04,699.6508,-5.58
