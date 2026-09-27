@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T11:37:08.637507Z",
+  "generatedAt": "2026-09-27T11:44:33.825157Z",
   "trades": [
     {
       "date": "2026-07-02",
@@ -243,6 +243,33 @@
       "reentryExitDate": "2026-07-23",
       "reentryExitPrice": 27.8423,
       "reentryPnl": 9.87
+    },
+    {
+      "date": "2026-08-17",
+      "symbol": "MXL",
+      "side": "sell",
+      "cbt": "84.76",
+      "entry": 86.66999816894531,
+      "stoploss": 97.28,
+      "target": 63.62,
+      "status": "TP Hit",
+      "exitDate": "2026-08-21",
+      "exitPrice": 63.62,
+      "maxProfit": 27.1,
+      "maxDrawdown": 2.69,
+      "daysHeld": 4,
+      "pnl": 26.6,
+      "lastPrice": 63.62,
+      "lastDate": "2026-08-21",
+      "reentryDate": "",
+      "reentrySide": "",
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-08-18",
