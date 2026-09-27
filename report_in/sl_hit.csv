@@ -1,4 +1,5 @@
 signal_date,symbol,side,cbt,entry,stoploss,target,status,exit_date,exit_price,max_profit_pct,max_drawdown_pct,days_held,pnl_pct,last_price,last_date,reentry_date,reentry_side,reentry_entry,reentry_sl,reentry_tp
+2026-07-24,FINPIPE,buy,160.8,156.71,150.99,188.15,SL Hit,2026-09-15,150.99,9.76,3.96,53,-3.65,150.99,2026-09-15,2026-09-17,Green,154.43,147.1974,160.0668
 2026-07-29,SOUTHWEST,buy,229.76,226.72,213.7,248.82,SL Hit,2026-08-25,213.7,9.6,10.86,27,-5.74,213.7,2026-08-25,2026-08-26,Green,211.66,194.1426,223.8151
 2026-07-30,EXPLEOSOL,sell,796.6,817.2047402612707,887.21,706.68,SL Hit,2026-07-30,887.21,-10.25,15.95,0,-8.57,887.21,2026-07-30,2026-07-30,Red,906.6,981.8415,828.9367
 2026-07-30,KAYNES,sell,3621.5,3650.0,3862.22,3206.05,SL Hit,2026-08-03,3862.22,2.02,5.94,4,-5.81,3862.22,2026-08-03,2026-08-03,Red,3805.0,4009.2411,3583.7679
