@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T16:42:44.211359Z",
+  "generatedAt": "2026-09-27T16:57:12.473453Z",
   "trades": [
     {
       "date": "2026-07-02",
@@ -243,6 +243,33 @@
       "reentryExitDate": "2026-07-23",
       "reentryExitPrice": 27.8423,
       "reentryPnl": 9.87
+    },
+    {
+      "date": "2026-07-20",
+      "symbol": "LFST",
+      "side": "sell",
+      "cbt": "11.34",
+      "entry": 11.5600004196167,
+      "stoploss": 12.17,
+      "target": 10.69,
+      "status": "TP Hit",
+      "exitDate": "2026-07-28",
+      "exitPrice": 10.69,
+      "maxProfit": 7.57,
+      "maxDrawdown": 1.73,
+      "daysHeld": 8,
+      "pnl": 7.53,
+      "lastPrice": 10.69,
+      "lastDate": "2026-07-28",
+      "reentryDate": "",
+      "reentrySide": "",
+      "reentryEntry": "",
+      "reentrySL": "",
+      "reentryTP": "",
+      "reentryStatus": "",
+      "reentryExitDate": "",
+      "reentryExitPrice": "",
+      "reentryPnl": ""
     },
     {
       "date": "2026-07-22",
