@@ -438,9 +438,7 @@ def write_report(results, report_dir):
     # --- reentry CSV (SL-hit trades that produced a reentry signal), sorted by
     #     reentry date. The secondary trade is tracked by its own levels/outcome.
     re_cols = ["signal_date", "symbol", "side", "entry", "stoploss", "target",
-               "pnl_pct", "reentry_date", "reentry_side", "reentry_entry",
-               "reentry_sl", "reentry_tp", "reentry_status", "reentry_exit_date",
-               "reentry_exit_price", "reentry_pnl_pct"]
+               "pnl_pct", "reentry_date"] + REENTRY_COLS
     reentries = [r for r in results
                  if r["status"] == "SL Hit" and r.get("reentry_date")]
     reentries.sort(key=lambda r: (r["reentry_date"], r["symbol"]))
