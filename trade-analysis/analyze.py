@@ -8,11 +8,19 @@ from the SL candle inclusive) and models a secondary reentry trade:
 
   - Reentry entry  = close of the reentry candle
   - Reentry SL     = reentry candle Low  - ATR(14)   (for Buy)
-                   = reentry candle High + ATR(14)   (for Sell)
-  - Reentry TP     = entry x (1 + |original loss %| / 100)
+                    = reentry candle High + ATR(14)   (for Sell)
+  - Reentry TP     = entry x (1 + |original loss %| / 100)  (for Buy)
+                    = entry x (1 - |original loss %| / 100)  (for Sell)
 
-The reentry trade's own outcome (TP / SL / Open) is then evaluated on the
-following closed candles.
+The reentry trade is exited on whichever comes first:
+
+  - TP Hit       : the reentry target is touched intraday
+  - SL Hit       : the reentry stop loss is touched intraday
+  - Reversal Exit: a candle CLOSES beyond the SL-hit candle's extreme, i.e.
+                   a close below that candle's Low (Buy) or above its
+                   High (Sell). This is a close-based check, so it takes
+                   priority over an intraday TP/SL hit on the same candle.
+  - Open         : neither condition met yet
 """
 
 import csv
@@ -112,6 +120,7 @@ def empty_result(signal_date, symbol, side, cbt, entry, sl, tp, status):
         "reentry_entry": "",
         "reentry_sl": "",
         "reentry_tp": "",
+        "reentry_invalidation": "",
         "reentry_status": "",
         "reentry_exit_date": "",
         "reentry_exit_price": "",
@@ -226,6 +235,14 @@ def add_reentry(result, ohlc, sl_hit_date, side, entry, loss_pct):
     """
     window = ohlc[ohlc["Date"] >= sl_hit_date].copy().reset_index(drop=True)
 
+    # The candle on which the original trade hit its SL. The reentry trade is
+    # also exited early if price closes back beyond this candle's extreme.
+    sl_candle = window.iloc[0]
+    if side == "buy":
+        invalidation = float(sl_candle["Low"])   # exit if a close drops below this
+    else:
+        invalidation = float(sl_candle["High"])  # exit if a close rises above this
+
     found_idx = None
     direction = None
     for i, day in window.iterrows():
@@ -273,8 +290,20 @@ def add_reentry(result, ohlc, sl_hit_date, side, entry, loss_pct):
     for _, d in post.iterrows():
         d_high = float(d["High"])
         d_low = float(d["Low"])
-        r_last_price = float(d["Close"])
+        d_close = float(d["Close"])
+        r_last_price = d_close
         r_last_date = str(d["Date"])
+
+        # Close-based invalidation: for a sell reentry, exit if a candle closes
+        # above the SL-hit candle's High; for a buy, if a close falls below its
+        # Low. Evaluated on the close, so it takes priority over intraday TP/SL.
+        reversal = d_close < invalidation if side == "buy" else d_close > invalidation
+        if reversal:
+            r_status = "Reversal Exit"
+            r_exit_date = str(d["Date"])
+            r_exit_price = d_close
+            r_pnl = (d_close - re_entry) / re_entry * 100 if side == "buy" else (re_entry - d_close) / re_entry * 100
+            break
 
         hit_tp = d_high >= re_tp if side == "buy" else d_low <= re_tp
         hit_sl = d_low <= re_sl if side == "buy" else d_high >= re_sl
@@ -309,6 +338,7 @@ def add_reentry(result, ohlc, sl_hit_date, side, entry, loss_pct):
     result["reentry_pnl_pct"] = round(r_pnl, 2) if r_pnl != "" else ""
     result["reentry_last_price"] = round(r_last_price, 4)
     result["reentry_last_date"] = r_last_date
+    result["reentry_invalidation"] = round(invalidation, 4)
 
 
 def collect(orderbook_dir):
@@ -374,8 +404,8 @@ def main():
 
 REENTRY_COLS = [
     "reentry_side", "reentry_entry", "reentry_sl", "reentry_tp",
-    "reentry_status", "reentry_exit_date", "reentry_exit_price",
-    "reentry_pnl_pct",
+    "reentry_invalidation", "reentry_status", "reentry_exit_date",
+    "reentry_exit_price", "reentry_pnl_pct",
 ]
 
 
@@ -465,6 +495,7 @@ def build_json(results):
             "reentryEntry": r["reentry_entry"],
             "reentrySL": r["reentry_sl"],
             "reentryTP": r["reentry_tp"],
+            "reentryInvalidation": r["reentry_invalidation"],
             "reentryStatus": r["reentry_status"],
             "reentryExitDate": r["reentry_exit_date"],
             "reentryExitPrice": r["reentry_exit_price"],
@@ -480,8 +511,9 @@ def summarize(results):
     open_trades = [r for r in results if r["status"] == "Open"]
 
     reentries = [r for r in results if r.get("reentry_date")]
-    re_done = [r for r in reentries if r.get("reentry_status") in ("TP Hit", "SL Hit")]
+    re_done = [r for r in reentries if r.get("reentry_status") in ("TP Hit", "SL Hit", "Reversal Exit")]
     re_tp = [r for r in re_done if r.get("reentry_status") == "TP Hit"]
+    re_reversal = [r for r in re_done if r.get("reentry_status") == "Reversal Exit"]
 
     def pct(x):
         s = 0.0
@@ -509,6 +541,7 @@ def summarize(results):
         "reentry_closed": len(re_done),
         "reentry_wins": len(re_tp),
         "reentry_win_rate": round(len(re_tp) / len(re_done) * 100, 1) if re_done else 0,
+        "reentry_reversal_exits": len(re_reversal),
         "reentry_avg_pnl": pct([r["reentry_pnl_pct"] for r in re_done]),
         "reentry_pending": len(reentries) - len(re_done),
         "generated_at": datetime.utcnow().isoformat() + "Z",
