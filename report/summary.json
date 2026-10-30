@@ -7,14 +7,14 @@
   "avg_pnl": 1.18,
   "avg_win": 9.7,
   "avg_loss": -7.46,
-  "avg_max_profit": 8.45,
+  "avg_max_profit": 8.47,
   "avg_max_drawdown": 6.16,
-  "reentry_total": 366,
+  "reentry_total": 367,
   "reentry_closed": 352,
   "reentry_wins": 116,
   "reentry_win_rate": 33.0,
   "reentry_reversal_exits": 225,
   "reentry_avg_pnl": -0.68,
-  "reentry_pending": 14,
-  "generated_at": "2026-10-30T04:52:27.268669Z"
+  "reentry_pending": 15,
+  "generated_at": "2026-10-30T05:10:04.278128Z"
 }
