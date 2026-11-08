@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T11:49:38.524998Z",
+  "generatedAt": "2026-11-08T21:43:30.221215Z",
   "trades": [
     {
       "date": "2026-06-25",
@@ -25879,7 +25879,7 @@
       "side": "buy",
       "cbt": "135.15",
       "entry": 134.48,
-      "stoploss": 123.38,
+      "stoploss": 123.37,
       "target": 145.8,
       "status": "Open",
       "exitDate": "",
