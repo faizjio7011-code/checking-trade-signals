@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T21:44:33.682378Z",
+  "generatedAt": "2026-11-11T21:56:05.079822Z",
   "trades": [
     {
       "date": "2026-06-25",
@@ -14567,27 +14567,27 @@
       "side": "sell",
       "cbt": "354.08",
       "entry": 362.07000732421875,
-      "stoploss": 399.31,
+      "stoploss": 399.3,
       "target": 322.19,
       "status": "SL Hit",
       "exitDate": "2026-10-27",
-      "exitPrice": 399.31,
+      "exitPrice": 399.3,
       "maxProfit": 4.47,
       "maxDrawdown": 12.81,
       "daysHeld": 53,
-      "pnl": -10.29,
-      "lastPrice": 399.31,
+      "pnl": -10.28,
+      "lastPrice": 399.3,
       "lastDate": "2026-10-27",
       "reentryDate": "2026-10-28",
       "reentrySide": "Red",
       "reentryEntry": 404.22,
       "reentrySL": 424.4698,
-      "reentryTP": 362.6448,
+      "reentryTP": 362.6559,
       "reentryInvalidation": 408.45,
       "reentryStatus": "TP Hit",
       "reentryExitDate": "2026-11-05",
-      "reentryExitPrice": 362.6448,
-      "reentryPnl": 10.29
+      "reentryExitPrice": 362.6559,
+      "reentryPnl": 10.28
     },
     {
       "date": "2026-09-04",
